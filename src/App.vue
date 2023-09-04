@@ -7,9 +7,11 @@ import PowersComponent from './views/folio/PowersComponent.vue'
 
 <template>
   <NavbarComponent />
-  <IntroComponent />
-  <AboutComponent/>
-  <PowersComponent/>
+  <div class="main">
+    <IntroComponent />
+    <AboutComponent />
+    <PowersComponent />
+  </div>
 </template>
 
 <style scoped></style>

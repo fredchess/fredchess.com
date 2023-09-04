@@ -32,8 +32,18 @@ body {
     border: 3px solid var(--color-bg);
 }
 
+/* General */
+
+section {
+    max-width: 1000px;
+}
+
+.main {
+    padding: 0 150px;
+}
+
 .intro {
-    min-height: 85vh;
+    min-height: calc(100vh - 100px);
 }
 
 .border-bottom-gradient {

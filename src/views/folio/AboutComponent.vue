@@ -3,7 +3,7 @@ import HeaderSection from '../../components/HeaderSection.vue'
 </script>
 
 <template>
-  <section class="about px-24 h-[97vh]">
+  <section class="about h-[97vh]">
     <HeaderSection :title="'About me'" />
     <div class="flex justify-center items-center">
       <div class="max-h-[500px] overflow-hidden flex max-w-[80%] justify-center items-center space-x-3">
