@@ -3,6 +3,7 @@ import NavbarComponent from './components/NavbarComponent.vue'
 import IntroComponent from './components/IntroComponent.vue'
 import AboutComponent from './views/folio/AboutComponent.vue'
 import PowersComponent from './views/folio/PowersComponent.vue'
+import ExperiencesComponent from './views/folio/ExperiencesComponent.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import PowersComponent from './views/folio/PowersComponent.vue'
     <IntroComponent />
     <AboutComponent />
     <PowersComponent />
+    <ExperiencesComponent/>
   </div>
 </template>
 

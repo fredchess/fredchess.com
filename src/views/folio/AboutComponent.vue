@@ -3,10 +3,10 @@ import HeaderSection from '../../components/HeaderSection.vue'
 </script>
 
 <template>
-  <section class="about h-[97vh]">
+  <section class="about min-h-[97vh]">
     <HeaderSection :title="'About me'" />
     <div class="flex justify-center items-center">
-      <div class="max-h-[500px] overflow-hidden flex max-w-[80%] justify-center items-center space-x-3">
+      <div class="overflow-hidden flex justify-between items-center space-x-3">
         <div class="text w-[60%]">
           <p class="leading-[2]">
             Hello! My name is Brittany and I enjoy creating things that live on the internet. My

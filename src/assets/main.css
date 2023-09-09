@@ -62,7 +62,7 @@ section {
 .headersection h2 {
     display: flex;
     align-items: center;
-    margin-bottom: var(--margin-bottom-headers);
+    margin: 10px 0 40px;
 }
 
 .headersection h2::after{
