@@ -6,7 +6,7 @@ import HeaderSection from '../../components/HeaderSection.vue'
   <section class="about min-h-[97vh]">
     <HeaderSection :title="'About me'" />
     <div class="flex justify-center items-center">
-      <div class="overflow-hidden flex justify-between items-center space-x-3">
+      <div class="overflow-hidden flex-row sm:flex justify-between items-center space-x-3">
         <div class="text w-[60%]">
           <p class="leading-[2]">
             Hello! My name is Brittany and I enjoy creating things that live on the internet. My

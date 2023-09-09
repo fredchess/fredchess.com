@@ -37,6 +37,7 @@ body {
 
 section {
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .main {
@@ -62,7 +63,7 @@ section {
 .headersection h2 {
     display: flex;
     align-items: center;
-    margin: 10px 0 40px;
+    margin: 10px 0 80px;
 }
 
 .headersection h2::after{
@@ -77,4 +78,8 @@ section {
 }
 
 /* About me section */
+
+/* Experience section */
+
+
 

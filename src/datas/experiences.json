@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "company": "SDK Games",
+        "company_link": "https://linkedin.com/in/frederick-essono",
+        "function": "Backend developer",
+        "location": "Douala, Cameroon",
+        "still_workinng": false,
+        "start_date": "2019",
+        "end_date": "2020",
+        "tasks": [
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        ]
+    },
+    {
+        "id": 2,
+        "company": "EstEnLigne Sarl",
+        "company_link": "https://linkedin.com/in/frederick-essono",
+        "function": ".NET web developer",
+        "location": "Douala, Cameroon",
+        "still_workinng": false,
+        "start_date": "2020",
+        "end_date": "2021",
+        "tasks": [
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        ]
+    },
+    {
+        "id": 3,
+        "company": "Upgrade Group",
+        "company_link": "https://linkedin.com/in/frederick-essono",
+        "function": ".NET web developer",
+        "location": "Yaounde, Cameroon",
+        "still_workinng": false,
+        "start_date": "2021",
+        "end_date": "2023",
+        "tasks": [
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        ]
+    },
+    {
+        "id": 4,
+        "company": "Bonitech Sarl",
+        "company_link": "https://linkedin.com/in/frederick-essono",
+        "function": "Php Developer",
+        "location": "Yaounde, Cameroon",
+        "still_workinng": true,
+        "start_date": "2023",
+        "end_date": "2023",
+        "tasks": [
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+        ]
+    }
+]
