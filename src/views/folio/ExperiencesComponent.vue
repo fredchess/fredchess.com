@@ -10,9 +10,6 @@ console.log(experiences)
 function showCompany (id)
 {
     selected_experience.value = experiences.find(x => x.id == id)
-
-
-    console.log(selected_experience.value)
 }
 
 </script>

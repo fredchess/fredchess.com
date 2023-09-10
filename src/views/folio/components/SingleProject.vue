@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="project_card flex justify-between my-12" :class="{ 'flex-row-reverse': id % 2 == 0 }">
+  <div class="project_card justify-between flex sm:my-24" :class="{ 'flex-row-reverse': id % 2 == 0 }">
     <div class="project_desc w-full sm:w-[45%]">
       <div class="title text-important text-4xl mb-5 font-bold">{{ name }}</div>
       <div class="description text-xs text-justify">{{ description }}</div>
@@ -22,13 +22,14 @@ defineProps({
             class="w-[35px]"
             :src="tech.image"
             :alt="tech.name"
+            :title="tech.name"
             v-for="(tech, idx) in used_technos"
             :key="idx"
           />
         </div>
       </div>
       <div class="buttons flex space-x-5 items-center justify-start">
-        <div class="btn text-important py-4 px-6 w-max border-important border font-bold flex space-x-2 cursor-pointer">
+        <div class="btn text-important py-3 px-5 w-max border-important border font-bold flex space-x-2 cursor-pointer">
           <span>Live project</span>
           <span>
             <svg
@@ -78,7 +79,7 @@ defineProps({
         </div>
       </div>
     </div>
-    <div class="project_image w-full sm:w-[40%] relative">
+    <div class="project_image w-full sm:w-[50%] relative">
       <img :src="image" alt="" />
       <div
         class="absolute top-0 bottom-0 left-0 right-0 w-full bg-important opacity-30 hover:opacity-0 transition-all"
@@ -87,4 +88,7 @@ defineProps({
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+
+</style>

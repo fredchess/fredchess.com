@@ -1,6 +1,7 @@
 [
     {
         "id": 3,
+        "type": "Web application",
         "name": "Montampon encreur",
         "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
         "live_link": "https://hidima.fredchess.com",
@@ -12,21 +13,22 @@
                 "image": "/images/stacks/js.png"
             },
             {
-                "name": "Javascript",
+                "name": "Csharp",
                 "image": "/images/stacks/csharp.png"
             },
             {
-                "name": "Javascript",
+                "name": "Laravel",
                 "image": "/images/stacks/laravel.png"
             },
             {
-                "name": "Javascript",
+                "name": "Vue Js",
                 "image": "/images/stacks/vue.png"
             }
         ]
     },
     {
         "id": 2,
+        "type": "Web application",
         "name": "One Nation One Heart",
         "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
         "live_link": "https://hidima.fredchess.com",
@@ -38,21 +40,22 @@
                 "image": "/images/stacks/js.png"
             },
             {
-                "name": "Javascript",
+                "name": "Csharp",
                 "image": "/images/stacks/csharp.png"
             },
             {
-                "name": "Javascript",
+                "name": "Laravel",
                 "image": "/images/stacks/laravel.png"
             },
             {
-                "name": "Javascript",
+                "name": "Vue Js",
                 "image": "/images/stacks/vue.png"
             }
         ]
     },
     {
         "id": 3,
+        "type": "Web application",
         "name": "Toolbrothers",
         "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
         "live_link": "https://hidima.fredchess.com",
@@ -64,15 +67,123 @@
                 "image": "/images/stacks/js.png"
             },
             {
-                "name": "Javascript",
+                "name": "Csharp",
                 "image": "/images/stacks/csharp.png"
             },
             {
-                "name": "Javascript",
+                "name": "Laravel",
                 "image": "/images/stacks/laravel.png"
             },
             {
+                "name": "Vue Js",
+                "image": "/images/stacks/vue.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "type": "Web application",
+        "name": "Toolbrothers 2",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
+        "live_link": "https://hidima.fredchess.com",
+        "git_link": "https://hidima.fredchess.com",
+        "image": "/images/projects/project-3.png",
+        "used_technos": [
+            {
                 "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Csharp",
+                "image": "/images/stacks/csharp.png"
+            },
+            {
+                "name": "Laravel",
+                "image": "/images/stacks/laravel.png"
+            },
+            {
+                "name": "Vue Js",
+                "image": "/images/stacks/vue.png"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "type": "Web application",
+        "name": "Toolbrothers 3",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
+        "live_link": "https://hidima.fredchess.com",
+        "git_link": "https://hidima.fredchess.com",
+        "image": "/images/projects/project-3.png",
+        "used_technos": [
+            {
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Csharp",
+                "image": "/images/stacks/csharp.png"
+            },
+            {
+                "name": "Laravel",
+                "image": "/images/stacks/laravel.png"
+            },
+            {
+                "name": "Vue Js",
+                "image": "/images/stacks/vue.png"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "type": "Web application",
+        "name": "Toolbrothers 4",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
+        "live_link": "https://hidima.fredchess.com",
+        "git_link": "https://hidima.fredchess.com",
+        "image": "/images/projects/project-3.png",
+        "used_technos": [
+            {
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Csharp",
+                "image": "/images/stacks/csharp.png"
+            },
+            {
+                "name": "Laravel",
+                "image": "/images/stacks/laravel.png"
+            },
+            {
+                "name": "Vue Js",
+                "image": "/images/stacks/vue.png"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "type": "Web application",
+        "name": "Toolbrothers 5",
+        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
+        "live_link": "https://hidima.fredchess.com",
+        "git_link": "https://hidima.fredchess.com",
+        "image": "/images/projects/project-3.png",
+        "used_technos": [
+            {
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Csharp",
+                "image": "/images/stacks/csharp.png"
+            },
+            {
+                "name": "Laravel",
+                "image": "/images/stacks/laravel.png"
+            },
+            {
+                "name": "Vue Js",
                 "image": "/images/stacks/vue.png"
             }
         ]

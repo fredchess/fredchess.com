@@ -5,6 +5,7 @@ import AboutComponent from './views/folio/AboutComponent.vue'
 import PowersComponent from './views/folio/PowersComponent.vue'
 import ExperiencesComponent from './views/folio/ExperiencesComponent.vue';
 import ProjectComponent from './views/folio/ProjectComponent.vue';
+import OtherProjects from './views/folio/OtherProjects.vue';
 // import {inject} from '@vercel/analytics'
 
 // inject()
@@ -18,6 +19,7 @@ import ProjectComponent from './views/folio/ProjectComponent.vue';
     <PowersComponent />
     <ExperiencesComponent/>
     <ProjectComponent/>
+    <OtherProjects/>
   </div>
 </template>
 

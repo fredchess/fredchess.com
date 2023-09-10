@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         important: '#64ffda',
-        appgray: '#CCD6F6'
+        appgray: '#8892B0'
       }
     },
   },

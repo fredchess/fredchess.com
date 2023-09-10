@@ -3,7 +3,7 @@ import HeaderSection from '../../components/HeaderSection.vue';
 import projects from '../../datas/projects.json';
 import SingleProject from './components/SingleProject.vue';
 
-console.log(projects)
+const selectedProjects = projects.slice(0, 3)
 
 </script>
 
@@ -11,7 +11,7 @@ console.log(projects)
     <section class="projects">
         <HeaderSection :title="'Projects I\'ve worked on'"/>
         <div class="projects_container">
-            <SingleProject v-for="(project, idx) in projects" :key="idx"
+            <SingleProject v-for="(project, idx) in selectedProjects" :key="idx"
                 :id="project.id"
                 :name="project.name"
                 :description="project.description"
