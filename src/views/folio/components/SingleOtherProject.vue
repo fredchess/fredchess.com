@@ -12,7 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="other_project w-[30%] px-8 py-7">
+  <div class="other_project w-[32%] px-8 py-7">
     <div class="header flex justify-between mb-7">
       <span class="type">{{ type }}</span>
       <div class="links flex space-x-3">

@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="navbar flex justify-between items-center py-5 px-11 border-bottom-gradient">
+  <div class="navbar flex justify-between items-center py-5 px-11 border-bottom-gradient w-[99%] m-auto">
     <a href="#">
       <div class="logo">
         <img src="/images/logo_fredchess.svg" alt="" />

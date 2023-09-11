@@ -2,6 +2,7 @@
 import HeaderSection from '../../components/HeaderSection.vue';
 import SingleOtherProject from './components/SingleOtherProject.vue';
 import projects from '../../datas/projects.json';
+// import {Swiper, SwiperSlide} from 'swiper/vue';
 
 const selectedProjects = projects.slice(3, 6);
 
