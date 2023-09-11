@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="contact h-screen">
+  <section class="contact min-h-[50vh] mb-7">
     <div class="container flex flex-col space-y-10 justify-center items-center text-center">
       <h2 class="message text-5xl font-bold my-7 leading-tight sm:leading-loose">
         Have a project in mind? Let’s get to work.👋📫

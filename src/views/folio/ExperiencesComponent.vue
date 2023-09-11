@@ -15,7 +15,7 @@ function showCompany (id)
 </script>
 
 <template>
-    <section class="experiences min-h-screen">
+    <section class="experiences min-h-[80vh]">
         <HeaderSection :title="'Where I\'ve Worked'" />
         <div class="experiences_container">
             <div class="nav">
@@ -32,13 +32,18 @@ function showCompany (id)
                     <span class="text-important ml-1"> 
                         <a :href="selected_experience.company_link"> @ {{ selected_experience.company }}</a>
                     </span>
+                    <span class="text-xs text-gray-500 ml-2">
+                        <a :href="selected_experience.location.link" target="_blank">({{ selected_experience.location.name }})</a>
+                    </span>
                 </div>
                 <div class="experience_date mb-8">
                     <span>{{ selected_experience.start_date }}</span>
                     <span class="mx-2"> - </span>
                     <span>{{ selected_experience.still_workinng ? 'Present' : selected_experience.end_date }}</span>
                 </div>
-                <div class="task" v-for="(task, idx) in selected_experience.tasks" :key="idx">{{ task }}</div>
+                <div class="task flex justify-center items-center text-justify" v-for="(task, idx) in selected_experience.tasks" :key="idx">
+                    <span>{{ task }}</span>
+                </div>
                 <!-- <div class="border absolute"></div> -->
             </div>
         </div>

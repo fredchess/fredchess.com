@@ -2,9 +2,12 @@
     {
         "id": 1,
         "company": "SDK Games",
-        "company_link": "https://linkedin.com/in/frederick-essono",
+        "company_link": "http://www.sdkgames.com/",
         "function": "Backend developer",
-        "location": "Douala, Cameroon",
+        "location": {
+            "name": "Douala, Cameroon",
+            "link": "https://goo.gl/maps/L9QiYbG6zQy98Pfe8"
+        },
         "still_workinng": false,
         "start_date": "2019",
         "end_date": "2020",
@@ -18,9 +21,12 @@
     {
         "id": 2,
         "company": "EstEnLigne Sarl",
-        "company_link": "https://linkedin.com/in/frederick-essono",
+        "company_link": "https://www.linkedin.com/company/estenligne",
         "function": ".NET web developer",
-        "location": "Douala, Cameroon",
+        "location": {
+            "name": "Douala, Cameroon",
+            "link": "https://goo.gl/maps/zxYFDdqVggXAkBMm8"
+        },
         "still_workinng": false,
         "start_date": "2020",
         "end_date": "2021",
@@ -34,9 +40,12 @@
     {
         "id": 3,
         "company": "Upgrade Group",
-        "company_link": "https://linkedin.com/in/frederick-essono",
+        "company_link": "https://gohze.com/",
         "function": ".NET web developer",
-        "location": "Yaounde, Cameroon",
+        "location": {
+            "name": "Yaounde, Cameroon",
+            "link": "https://goo.gl/maps/w9C2xJPWWFnPp1RB7"
+        },
         "still_workinng": false,
         "start_date": "2021",
         "end_date": "2023",
@@ -49,9 +58,12 @@
     {
         "id": 4,
         "company": "Bonitech Sarl",
-        "company_link": "https://linkedin.com/in/frederick-essono",
+        "company_link": "#",
         "function": "Php Developer",
-        "location": "Yaounde, Cameroon",
+        "location": {
+            "name": "Yaounde, Cameroon",
+            "link": "https://goo.gl/maps/YVrUdeQuQ9FYiwhA6"
+        },
         "still_workinng": true,
         "start_date": "2023",
         "end_date": "2023",
