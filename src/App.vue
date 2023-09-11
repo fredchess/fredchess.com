@@ -8,9 +8,9 @@ import ExperiencesComponent from './views/folio/ExperiencesComponent.vue';
 import ProjectComponent from './views/folio/ProjectComponent.vue';
 import OtherProjects from './views/folio/OtherProjects.vue';
 import ContactComponent from './views/folio/ContactComponent.vue';
-// import {inject} from '@vercel/analytics'
+import {inject} from '@vercel/analytics'
 
-// inject()
+inject()
 </script>
 
 <template>
