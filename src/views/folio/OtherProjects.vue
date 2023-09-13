@@ -25,7 +25,7 @@ onMounted(() => {
             dynamicBullets: true
          },
          breakpoints: {
-            1000: {
+            700: {
                slidesPerView: 2
             }
          }

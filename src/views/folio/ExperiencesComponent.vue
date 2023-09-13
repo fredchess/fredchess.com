@@ -17,8 +17,8 @@ function showCompany (id)
 <template>
     <section class="experiences min-h-[80vh]">
         <HeaderSection :title="'Where I\'ve Worked'" />
-        <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline">
-            <div class="nav flex sm:flex-col overflow-x-scroll">
+        <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline overflow-hidden">
+            <div class="nav flex sm:flex-col overflow-x-scroll sm:overflow-auto">
                 <button v-for="(experience, idx) in experiences" :key="idx" @click="showCompany(experience.id)"
                     :class="{ selected: selected_experience?.id == experience.id }">
                     {{ experience.company }}
@@ -41,7 +41,7 @@ function showCompany (id)
                     <span class="mx-2"> - </span>
                     <span>{{ selected_experience.still_workinng ? 'Present' : selected_experience.end_date }}</span>
                 </div>
-                <div class="task flex justify-center items-center text-justify" v-for="(task, idx) in selected_experience.tasks" :key="idx">
+                <div class="task flex justify-center items-center text-left" v-for="(task, idx) in selected_experience.tasks" :key="idx">
                     <span>{{ task }}</span>
                 </div>
                 <!-- <div class="border absolute"></div> -->

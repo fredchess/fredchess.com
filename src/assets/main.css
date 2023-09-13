@@ -49,12 +49,6 @@ section {
   padding: 0 10vw;
 }
 
-.footer {
-  padding: 70px;
-  width: 99%;
-  margin: auto;
-}
-
 .intro {
   min-height: calc(100vh - 100px);
 }
@@ -92,6 +86,7 @@ section {
 .headersection h2 {
   display: flex;
   align-items: center;
+  font-size: clamp(20px, 5vw,32px);
   margin: 10px 0 80px;
 }
 
@@ -110,6 +105,14 @@ section {
     var(--color-bg)
   );
 }
+
+@media screen and (max-width: 735px) {
+  .headersection h2::after { width: 200px; }
+}
+
+/* @media screen and (max-width: 570px) {
+  .headersection h2::after { width: 100px; }
+} */
 
 /* About me section */
 

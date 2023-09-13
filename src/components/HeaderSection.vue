@@ -6,7 +6,7 @@
 
 <template>
     <div class="headersection items-center">
-        <h2 class="text-4xl font-bold relative text-important">{{ title }}</h2>
+        <h2 class="font-bold relative text-important">{{ title }}</h2>
     </div>
 </template>
 
