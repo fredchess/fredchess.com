@@ -10,7 +10,7 @@ const selectedProjects = projects.slice(0, 3)
 <template>
     <section class="projects">
         <HeaderSection :title="'Projects I\'ve worked on'"/>
-        <div class="projects_container">
+        <div class="projects_container space-y-7">
             <SingleProject v-for="(project, idx) in selectedProjects" :key="idx"
                 :id="project.id"
                 :name="project.name"

@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+    import SimpleButton from '../../components/buttons/SimpleButton.vue';
+</script>
 
 <template>
     <section class="intro flex flex-col items-start justify-center space-y-2">
@@ -6,5 +8,8 @@
         <h2 class="text-7xl font-bold text-important">Frederick Essono.</h2>
         <h3 class="text-5xl font-bold">A profesionnal Full stack developer.</h3>
         <span class="text-xl block text-appgray mt-5"> I create meaningful solutions for your brands and give your customers the best experience possible.</span>
+        <SimpleButton :text="'Pull my CV'" :transparent="true" >
+            <font-awesome-icon icon="fas fa-file" class="text-important"/>
+        </SimpleButton>
     </section>
 </template>

@@ -6,8 +6,8 @@ import HeaderSection from '../../components/HeaderSection.vue'
   <section class="about min-h-[97vh]">
     <HeaderSection :title="'About me'" />
     <div class="flex justify-center items-center">
-      <div class="overflow-hidden flex-row sm:flex justify-between items-center space-x-3">
-        <div class="text w-[60%]">
+      <div class="flex-row sm:flex sm:justify-between items-center sm:space-x-3 space-y-7 sm:space-y-0">
+        <div class="text sm:w-[60%]">
           <p class="leading-[2]">
             Hello! My name is Brittany and I enjoy creating things that live on the internet. My
             interest in web development started back in 2012 when I decided to try editing custom
@@ -19,8 +19,8 @@ import HeaderSection from '../../components/HeaderSection.vue'
             everything you need to build a web app with the Spotify API using Node & React.
           </p>
         </div>
-        <div class="image w-[30%]">
-          <img src="/images/profile.png" alt="" class="object-center object-cover" />
+        <div class="image sm:w-[30%]">
+          <img src="/images/profile.png" alt="" class="object-center object-cover w-1/2 sm:w-full m-auto" />
         </div>
       </div>
     </div>

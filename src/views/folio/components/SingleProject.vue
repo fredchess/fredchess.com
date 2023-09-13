@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="project_card justify-between flex sm:my-24" :class="{ 'flex-row-reverse': id % 2 == 0 }">
+  <div class="project_card justify-between items-center flex" :class="{ 'flex-row-reverse': id % 2 == 0 }">
     <div class="project_desc w-full sm:w-[45%]">
       <div class="title text-important text-4xl mb-5 font-bold">{{ name }}</div>
       <div class="description text-xs text-justify">{{ description }}</div>
@@ -79,7 +79,7 @@ defineProps({
         </div>
       </div>
     </div>
-    <div class="project_image w-full sm:w-[50%] relative">
+    <div class="project_image w-full sm:w-[50%] relative hidden sm:block">
       <img :src="image" alt="" />
       <div
         class="absolute top-0 bottom-0 left-0 right-0 w-full bg-important opacity-30 hover:opacity-0 transition-all"

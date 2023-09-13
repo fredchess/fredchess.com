@@ -18,7 +18,7 @@
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: 'Inter', sans-serif;
+  font-family: 'ubuntu', 'Inter', sans-serif;
   font-size: medium;
 }
 
@@ -46,7 +46,7 @@ section {
 }
 
 .main {
-  padding: 0 150px;
+  padding: 0 10vw;
 }
 
 .footer {

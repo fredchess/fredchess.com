@@ -3,11 +3,11 @@
 <template>
   <div class="navbar flex justify-between items-center py-5 px-11 border-bottom-gradient w-[99%] m-auto">
     <a href="#">
-      <div class="logo">
+      <div class="logo w-[80%]">
         <img src="/images/logo_fredchess.svg" alt="" />
       </div>
     </a>
-    <div class="links flex space-x-5">
+    <div class="links space-x-5 hidden sm:flex">
       <a href="#" class="link">About</a>
       <a href="#experience" class="link">Experience</a>
       <a href="#projects" class="link">Projects</a>

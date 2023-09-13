@@ -17,14 +17,14 @@ function showCompany (id)
 <template>
     <section class="experiences min-h-[80vh]">
         <HeaderSection :title="'Where I\'ve Worked'" />
-        <div class="experiences_container">
-            <div class="nav">
+        <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline">
+            <div class="nav flex sm:flex-col overflow-x-scroll">
                 <button v-for="(experience, idx) in experiences" :key="idx" @click="showCompany(experience.id)"
                     :class="{ selected: selected_experience?.id == experience.id }">
                     {{ experience.company }}
                 </button>
             </div>
-            <div class="tasks flex flex-col space-y-4" v-if="selected_experience">
+            <div class="tasks flex flex-col space-y-4 w-full sm:w-[70%]" v-if="selected_experience">
                 <div class="experience_title text-3xl mb-1">
                     <span>
                         {{ selected_experience.function }}
@@ -57,9 +57,9 @@ function showCompany (id)
 }
 
 .experiences_container .nav {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 20%; */
     height: max-content;
     /* border-left: 2px #ccd6f6 solid; */
 }
@@ -77,7 +77,7 @@ function showCompany (id)
     background: rgb(100 255 218 /.1);
     color: #64ffda;
     transition: all 200ms ease-in;
-    border-left: 3px #64ffda solid;
+    /* border-left: 3px #64ffda solid; */
 }
 
 .experiences_container .nav button:hover {
@@ -87,9 +87,9 @@ function showCompany (id)
     transition: all 200ms ease-in;
 }
 
-.experiences_container .tasks {
+/* .experiences_container .tasks {
     width: 70%;
-}
+} */
 
 .experiences_container .task {
     display: flex;
