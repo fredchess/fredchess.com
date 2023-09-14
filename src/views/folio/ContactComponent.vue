@@ -3,7 +3,7 @@
 <template>
   <section class="contact min-h-[50vh] mb-7">
     <div class="container flex flex-col space-y-10 justify-center items-center text-center">
-      <h2 class="message text-5xl font-bold my-7 leading-tight sm:leading-loose">
+      <h2 class="message text-[clamp(2rem,4vw,4rem)] font-bold my-7 sm:leading-loose">
         Have a project in mind? Let’s get to work.👋📫
       </h2>
       <button class="btn bg-important px-6 py-4 flex justify-between items-center space-x-3">

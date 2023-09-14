@@ -36,7 +36,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <section class="otherprojects lg:min-h-[70vh]">
+    <section class="otherprojects min-h-screen">
         <HeaderSection :title="'Other noteworthy projects'"/>
         <div class="other_project_container flex justify-between">
             <div class="swiper">

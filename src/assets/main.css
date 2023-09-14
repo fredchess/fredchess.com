@@ -20,6 +20,7 @@ body {
   color: var(--color-text);
   font-family: 'ubuntu', 'Inter', sans-serif;
   font-size: medium;
+  overflow: hidden auto;
 }
 
 /* Scrollbar */
@@ -47,6 +48,7 @@ section {
 
 .main {
   padding: 0 10vw;
+  scroll-behavior: smooth;
 }
 
 .intro {

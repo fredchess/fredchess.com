@@ -5,8 +5,6 @@ import { ref } from 'vue';
 
 const selected_experience = ref(experiences[0] ?? null)
 
-console.log(experiences)
-
 function showCompany (id)
 {
     selected_experience.value = experiences.find(x => x.id == id)
@@ -17,8 +15,8 @@ function showCompany (id)
 <template>
     <section class="experiences min-h-[80vh]">
         <HeaderSection :title="'Where I\'ve Worked'" />
-        <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline overflow-hidden">
-            <div class="nav flex sm:flex-col overflow-x-scroll sm:overflow-auto">
+        <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline">
+            <div class="nav flex sm:flex-col whitespace-nowrap w-full sm:w-max overflow-auto">
                 <button v-for="(experience, idx) in experiences" :key="idx" @click="showCompany(experience.id)"
                     :class="{ selected: selected_experience?.id == experience.id }">
                     {{ experience.company }}
