@@ -12,7 +12,7 @@ function toggleMenu() {
 
 <template>
   <div
-    class="navbar flex justify-between items-center py-5 px-11 border-bottom-gradient w-[99%] m-auto"
+    class="navbar flex justify-between items-center py-5 px-5 border-bottom-gradient w-[99%] m-auto"
   >
     <a href="#">
       <div class="logo w-[clamp(8rem,12vw,12rem)]">
@@ -39,7 +39,7 @@ function toggleMenu() {
 <style scoped>
 .menu {
   width: 2.5rem;
-  height: 2.5rem;
+  height: 2rem;
   margin: 8px;
   border-radius: 5px;
   cursor: pointer;
@@ -49,6 +49,7 @@ function toggleMenu() {
   position: relative;
   width: 100%;
   height: 100%;
+  display: flex;
 }
 
 .menu span {
@@ -60,7 +61,7 @@ function toggleMenu() {
   display: block;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-30%, -50%);
   transition:
     transform 0.5s,
     width 0.5s;
@@ -70,16 +71,23 @@ function toggleMenu() {
   transform: translate(-50%, -12px);
 }
 
+.menu .line-2 {
+  width: 70%;
+}
+
 .menu .line-3 {
-  transform: translate(-50%, 10px);
+  transform: translate(-10%, 10px);
+  width: 50%;
 }
 
 .openmenu .line-1 {
   transform: translate(-50%, -50%) rotate(-45deg);
+  width: 100%;
 }
 
 .openmenu .line-3 {
   transform: translate(-50%, -50%) rotate(45deg);
+  width: 100%;
 }
 
 .openmenu .line-2 {
