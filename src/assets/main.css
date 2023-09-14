@@ -15,13 +15,6 @@
   margin: 0;
 }
 
-body.blurred .content > * {
-  filter: blur(5px) brightness(.7);
-  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-  pointer-events: none;
-  user-select: none;
-}
-
 body.blurred { overflow: hidden; }
 
 body {
@@ -29,6 +22,17 @@ body {
   color: var(--color-text);
   font-family: 'ubuntu', 'Inter', sans-serif;
   font-size: medium;
+  overflow: hidden auto;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(5px) brightness(0.7);
+  z-index: 5;
 }
 
 /* Scrollbar */

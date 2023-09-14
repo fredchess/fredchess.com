@@ -14,16 +14,11 @@ import { ref } from 'vue'
 
 const SidebarVisible = ref(false)
 
-function showSidebar() {
-  SidebarVisible.value = true
+function toggleSidebar() {
+  SidebarVisible.value = !SidebarVisible.value
 
-  document.querySelector('body')?.classList.add('blurred')
-}
-
-function hideSidebar() {
-  SidebarVisible.value = false
-
-  document.querySelector('body')?.classList.remove('blurred')
+  document.querySelector('body')?.classList.toggle('blurred')
+  document.querySelector('.overlay')?.classList.toggle('hidden')
 }
 
 // inject()
@@ -31,7 +26,7 @@ function hideSidebar() {
 
 <template>
   <div class="content">
-    <NavbarComponent @showSidebar="showSidebar" />
+    <NavbarComponent @toggleSidebar="toggleSidebar" />
     <div class="main" @click="hideSidebar">
       <IntroComponent />
       <AboutComponent />
@@ -45,7 +40,6 @@ function hideSidebar() {
   </div>
   <SidebarMenu
     :class="{ show: SidebarVisible, hidden: !SidebarVisible }"
-    @closeSidebar="hideSidebar"
   />
 </template>
 

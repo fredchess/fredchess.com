@@ -2,12 +2,7 @@
 
 <template>
   <aside class="sidebar-menu flex flex-col justify-center items-center">
-    <font-awesome-icon
-      icon="fa-solid fa-xmark"
-      class="fa-3x absolute right-2 top-2 cursor-pointer"
-      @click="$emit('closeSidebar')"
-    />
-    <nav class="menu flex flex-col m-auto text-2xl space-y-5 font-semibold">
+    <nav class="menu flex flex-col m-auto text-2xl space-y-5">
       <a href="#" class="link">About</a>
       <a href="#experience" class="link">Experience</a>
       <a href="#projects" class="link">Projects</a>
@@ -38,11 +33,9 @@
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1;
+  z-index: 6;
   background-color: #2d2749;
-  padding: 50px 10px;
-  transform: translateX(0vw);
-  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-  outline: 0px;
+  padding: 1rem .75rem;
+  margin: 0;
 }
 </style>
