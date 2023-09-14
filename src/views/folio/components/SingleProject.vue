@@ -11,9 +11,10 @@ defineProps({
 </script>
 
 <template>
-  <div :class="`bg-[url('${image}')] sm:bg-none`">
+  <div :class="`bg-[url(${image})] sm:bg-none`">
+  <!-- <div :class="`sm:bg-none`" :style="`background-image: url('${image}')`"> -->
     <div
-      class="project_card sm:bg-transparent justify-between items-center flex mb-24 sm:mb-12 px-8 py-7 sm:p-0 backdrop-filter backdrop-grayscale-[100%] backdrop-brightness-[10%] backdrop-contrast-100 sm:backdrop-filter-none"
+      class="project_card sm:bg-transparent justify-between items-center flex mb-24 sm:mb-12 px-8 py-7 sm:p-0 backdrop-filter backdrop-brightness-[10%] backdrop-contrast-100 sm:backdrop-filter-none"
       :class="{ 'flex-row-reverse': id % 2 == 0 }"
     >
       <div class="project_desc w-full sm:w-[45%]">

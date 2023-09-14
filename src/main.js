@@ -1,7 +1,8 @@
 import './assets/main.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faArrowUpRightFromSquare, faFile } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faInstagram, faLinkedin, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 

@@ -9,6 +9,11 @@ export default {
       colors: {
         important: '#64ffda',
         appgray: '#8892B0'
+      },
+      backgroundImage: {
+        'project-1': "url('/images/projects/project-1.png')",
+        'project-2': "url('/images/projects/project-2.png')",
+        'project-3': "url('/images/projects/project-3.png')",
       }
     },
   },

@@ -9,7 +9,7 @@
         <h3 class="text-[clamp(2rem,3vw,3rem)] font-bold">A profesionnal Full stack developer.</h3>
         <span class="text-xl block text-appgray mt-5"> I create meaningful solutions for your brands and give your customers the best experience possible.</span>
         <SimpleButton :text="'Pull my CV'" :transparent="true" >
-            <font-awesome-icon icon="fas fa-file" class="text-important"/>
+            <font-awesome-icon icon="fa-regular fa-file" class="text-important"/>
         </SimpleButton>
     </section>
 </template>
