@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div class="navbar flex justify-between items-center py-5 px-11 border-bottom-gradient w-[99%] m-auto">
@@ -13,6 +14,9 @@
       <a href="#projects" class="link">Projects</a>
       <a href="#contact" class="link">Contact</a>
       <a href="#blogs" class="link">Blogs</a>
+    </div>
+    <div class="burger-btn sm:hidden block cursor-pointer" @click="$emit('showSidebar')">
+      <font-awesome-icon icon="fa-solid fa-bars-staggered" class="text-important fa-2x"/>
     </div>
   </div>
 </template>

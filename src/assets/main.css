@@ -15,12 +15,20 @@
   margin: 0;
 }
 
+body.blurred .content > * {
+  filter: blur(5px) brightness(.7);
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  pointer-events: none;
+  user-select: none;
+}
+
+body.blurred { overflow: hidden; }
+
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: 'ubuntu', 'Inter', sans-serif;
   font-size: medium;
-  overflow: hidden auto;
 }
 
 /* Scrollbar */
@@ -90,6 +98,7 @@ section {
   align-items: center;
   font-size: clamp(20px, 5vw,32px);
   margin: 80px 0 80px;
+  white-space: nowrap;
 }
 
 .headersection h2::after {
@@ -106,6 +115,12 @@ section {
     var(--color-important) 50%,
     var(--color-bg)
   );
+}
+
+@media screen and (max-width: 275px) {
+  .headersection h2::after {
+    display: none;
+  }
 }
 
 /* About me section */
