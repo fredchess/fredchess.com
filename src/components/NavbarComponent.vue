@@ -71,13 +71,8 @@ function toggleMenu() {
   transform: translate(-50%, -12px);
 }
 
-.menu .line-2 {
-  /* width: 70%; */
-}
-
 .menu .line-3 {
   transform: translate(-50%, 10px);
-  /* width: 50%; */
 }
 
 .openmenu .line-1 {
