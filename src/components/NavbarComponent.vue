@@ -39,7 +39,7 @@ function toggleMenu() {
 <style scoped>
 .menu {
   width: 2.5rem;
-  height: 2rem;
+  height: 2.5rem;
   margin: 8px;
   border-radius: 5px;
   cursor: pointer;
