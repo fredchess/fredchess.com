@@ -61,7 +61,7 @@ function toggleMenu() {
   display: block;
   top: 50%;
   left: 50%;
-  transform: translate(-30%, -50%);
+  transform: translate(-50%, -50%);
   transition:
     transform 0.5s,
     width 0.5s;
@@ -72,12 +72,12 @@ function toggleMenu() {
 }
 
 .menu .line-2 {
-  width: 70%;
+  /* width: 70%; */
 }
 
 .menu .line-3 {
-  transform: translate(-10%, 10px);
-  width: 50%;
+  transform: translate(-50%, 10px);
+  /* width: 50%; */
 }
 
 .openmenu .line-1 {
