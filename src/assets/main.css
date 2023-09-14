@@ -89,13 +89,13 @@ section {
   display: flex;
   align-items: center;
   font-size: clamp(20px, 5vw,32px);
-  margin: 10px 0 80px;
+  margin: 80px 0 80px;
 }
 
 .headersection h2::after {
   content: '';
   display: block;
-  width: 300px;
+  width: clamp(100px, 30vw, 300px);
   height: 1px;
   position: relative;
   top: 5px;
@@ -107,14 +107,6 @@ section {
     var(--color-bg)
   );
 }
-
-@media screen and (max-width: 735px) {
-  .headersection h2::after { width: 200px; }
-}
-
-/* @media screen and (max-width: 570px) {
-  .headersection h2::after { width: 100px; }
-} */
 
 /* About me section */
 
