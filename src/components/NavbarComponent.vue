@@ -1,7 +1,4 @@
 <script setup>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-
-
 const emit = defineEmits(['toggleSidebar']);
 function toggleMenu() {
   document.querySelector('.menu').classList.toggle('openmenu')
@@ -20,11 +17,21 @@ function toggleMenu() {
       </div>
     </a>
     <div class="links space-x-5 hidden sm:flex">
-      <a href="#" class="link">About</a>
-      <a href="#experience" class="link">Experience</a>
-      <a href="#projects" class="link">Projects</a>
-      <a href="#contact" class="link">Contact</a>
-      <a href="#blogs" class="link">Blogs</a>
+      <a href="#about" class="link">
+        <span>About</span>
+      </a>
+      <a href="#experience" class="link">
+        <span>Experience</span>
+      </a>
+      <a href="#projects" class="link">
+        <span>Projects</span>
+      </a>
+      <a href="#contact" class="link">
+        <span>Contact</span>
+      </a>
+      <a href="#blogs" class="link">
+        <span>Blogs</span>
+      </a>
     </div>
     <div class="menu sm:hidden z-10" @click="toggleMenu">
       <div>
@@ -37,6 +44,14 @@ function toggleMenu() {
 </template>
 
 <style scoped>
+
+/* .navbar {
+  position: fixed;
+  backdrop-filter: blur(50px) brightness(.7);
+  z-index: 3;
+  top: 0;
+  width: 100%;
+} */
 .menu {
   width: 2.5rem;
   height: 2.5rem;

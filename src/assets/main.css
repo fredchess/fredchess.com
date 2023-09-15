@@ -23,6 +23,7 @@ body {
   font-family: 'ubuntu', 'Inter', sans-serif;
   font-size: medium;
   overflow: hidden auto;
+  scroll-behavior: smooth;
 }
 
 .overlay {
@@ -33,6 +34,7 @@ body {
   left: 0;
   backdrop-filter: blur(5px) brightness(0.7);
   z-index: 5;
+  cursor: pointer;
 }
 
 /* Scrollbar */
@@ -89,10 +91,35 @@ section {
     80;
 }
 
+/* Links */
+
 .link:hover,
 .link.selected {
   color: #64ffda;
   transition: all 0.5s ease-in-out;
+}
+
+.link span {
+  position: relative;
+  display: inline-block;
+}
+
+.link span::after {
+  content: '';
+  transform: scaleX(0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: transform .5s ease-out;
+  transform-origin: bottom right;
+}
+
+.link.selected span::after, .link:hover span::after {
+  width: 100%;
+  height: 2px;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: var(--color-important);
 }
 
 /* Sections */

@@ -2,12 +2,22 @@
 
 <template>
   <aside class="sidebar-menu flex flex-col justify-center items-center">
-    <nav class="menu flex flex-col m-auto text-2xl space-y-5">
-      <a href="#" class="link">About</a>
-      <a href="#experience" class="link">Experience</a>
-      <a href="#projects" class="link">Projects</a>
-      <a href="#contact" class="link">Contact</a>
-      <a href="#blogs" class="link">Blogs</a>
+    <nav class="menu flex flex-col m-auto text-2xl">
+      <a href="#" class="link py-3 selected">
+        <span>About</span>
+      </a>
+      <a href="#experience" class="link py-3">
+        <span>Experience</span>
+      </a>
+      <a href="#projects" class="link py-3">
+        <span>Projects</span>
+      </a>
+      <a href="#contact" class="link py-3">
+        <span>Contact</span>
+      </a>
+      <a href="#blogs" class="link py-3">
+        <span>Blogs</span>
+      </a>
     </nav>
     <div class="socials flex items-center justify-center space-x-5">
         <a href="https://github.com/frede" target="_blank">
@@ -36,6 +46,8 @@
   z-index: 6;
   background-color: #2d2749;
   padding: 1rem .75rem;
+  /* transform: translateX(450px); */
+  transition: transform .5s;
   margin: 0;
 }
 </style>

@@ -9,7 +9,7 @@ import ProjectComponent from './views/folio/ProjectComponent.vue'
 import OtherProjects from './views/folio/OtherProjects.vue'
 import ContactComponent from './views/folio/ContactComponent.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 // import {inject} from '@vercel/analytics'
 
 const SidebarVisible = ref(false)
@@ -20,6 +20,13 @@ function toggleSidebar() {
   document.querySelector('body')?.classList.toggle('blurred')
   document.querySelector('.overlay')?.classList.toggle('hidden')
 }
+
+onMounted(() => {
+  document.querySelector('.overlay')?.addEventListener('click', () => {
+    toggleSidebar()
+    document.querySelector('.navbar .menu')?.classList.toggle('openmenu')
+  })
+})
 
 // inject()
 </script>
@@ -38,10 +45,7 @@ function toggleSidebar() {
     </div>
     <FooterComponent />
   </div>
-  <SidebarMenu
-    :class="{ show: SidebarVisible, hidden: !SidebarVisible }"
-  />
+  <SidebarMenu v-motion-slide-right :class="{ show: SidebarVisible, hidden: !SidebarVisible }" />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
