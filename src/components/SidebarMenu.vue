@@ -2,21 +2,23 @@
 import { useRoute } from 'vue-router';
 
 const route = useRoute();
+
+console.log()
 </script>
 
 <template>
   <aside class="sidebar-menu hidden flex flex-col justify-center items-center">
     <nav class="menu flex flex-col m-auto text-2xl">
-      <a href="#" class="link py-3 selected">
+      <a href="#about" class="link py-3" :class="{'selected': route.fullPath.includes('about')}">
         <span>About</span>
       </a>
-      <a href="#experience" class="link py-3">
+      <a href="#ab" class="link py-3" :class="{'selected': route.fullPath.includes('experience')}">
         <span>Experience</span>
       </a>
-      <a href="#projects" class="link py-3">
+      <a href="#projects" class="link py-3" :class="{'selected': route.fullPath.includes('projects')}">
         <span>Projects</span>
       </a>
-      <a href="#contact" class="link py-3">
+      <a href="#contact" class="link py-3" :class="{'selected': route.fullPath.includes('contact')}">
         <span>Contact</span>
       </a>
       <a href="#blogs" class="link py-3">

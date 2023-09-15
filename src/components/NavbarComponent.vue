@@ -1,8 +1,9 @@
 <script setup>
+import { useRoute } from 'vue-router';
 import { useSidebar } from '../stores/sidebar'
 
 const sidebarStore = useSidebar()
-
+const route = useRoute()
 function toggleMenu() {
   sidebarStore.toggleSidebar()
 }
@@ -10,28 +11,28 @@ function toggleMenu() {
 
 <template>
   <div
-    class="navbar flex justify-between items-center py-5 px-5 border-bottom-gradient w-[99%] m-auto"
+    class="navbar relative flex justify-between items-center py-5 px-5 border-bottom-gradient w-[99%] m-auto overflow-hidden"
   >
     <a href="#">
-      <div class="logo w-[clamp(8rem,12vw,12rem)]">
+      <div class="logo w-[clamp(8rem,12vw,12rem)]" v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">
         <img src="/images/logo_fredchess.svg" alt="" />
       </div>
     </a>
     <div class="links space-x-5 hidden sm:flex">
-      <a href="#about" class="link">
-        <span>About</span>
+      <a href="#about" class="link" :class="{'selected': route.fullPath.includes('about')}">
+        <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">About</span>
       </a>
-      <a href="#experience" class="link">
-        <span>Experience</span>
+      <a href="#experience" class="link" :class="{'selected': route.fullPath.includes('experience')}">
+        <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1.6">Experience</span>
       </a>
-      <a href="#projects" class="link">
-        <span>Projects</span>
+      <a href="#projects" class="link" :class="{'selected': route.fullPath.includes('projects')}">
+        <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*2.2">Projects</span>
       </a>
-      <a href="#contact" class="link">
-        <span>Contact</span>
+      <a href="#contact" class="link" :class="{'selected': route.fullPath.includes('contact')}">
+        <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*2.8">Contact</span>
       </a>
       <a href="#blogs" class="link">
-        <span>Blogs</span>
+        <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*3.4">Blogs</span>
       </a>
     </div>
     <div class="menu sm:hidden z-10" @click="toggleMenu">
