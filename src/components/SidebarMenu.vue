@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+</script>
 
 <template>
-  <aside class="sidebar-menu flex flex-col justify-center items-center">
+  <aside class="sidebar-menu hidden flex flex-col justify-center items-center">
     <nav class="menu flex flex-col m-auto text-2xl">
       <a href="#" class="link py-3 selected">
         <span>About</span>

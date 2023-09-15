@@ -3,9 +3,9 @@ import HeaderSection from '../../components/HeaderSection.vue'
 </script>
 
 <template>
-  <section class="about min-h-[97vh]" id="about">
+  <section class="about min-h-[70vh]" id="about">
     <HeaderSection :title="'About me'" />
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center m-auto">
       <div class="flex-row sm:flex sm:justify-between items-center sm:space-x-3 space-y-7 sm:space-y-0">
         <div class="text sm:w-[60%]">
           <p class="leading-[2]">
@@ -19,9 +19,9 @@ import HeaderSection from '../../components/HeaderSection.vue'
             everything you need to build a web app with the Spotify API using Node & React.
           </p>
         </div>
-        <div class="image sm:w-[30%]">
+        <!-- <div class="image sm:w-[30%]">
           <img src="/images/profile.png" alt="" class="object-center object-cover w-1/2 sm:w-full m-auto" />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

@@ -9,22 +9,20 @@ import ProjectComponent from './views/folio/ProjectComponent.vue'
 import OtherProjects from './views/folio/OtherProjects.vue'
 import ContactComponent from './views/folio/ContactComponent.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
-import { ref, onMounted } from 'vue'
-// import {inject} from '@vercel/analytics'
+import { onMounted } from 'vue'
+import { useSidebar } from './stores/sidebar'
 
-const SidebarVisible = ref(false)
-
-function toggleSidebar() {
-  SidebarVisible.value = !SidebarVisible.value
-
-  document.querySelector('body')?.classList.toggle('blurred')
-  document.querySelector('.overlay')?.classList.toggle('hidden')
-}
+const sidebarStore = useSidebar()
 
 onMounted(() => {
-  document.querySelector('.overlay')?.addEventListener('click', () => {
-    toggleSidebar()
-    document.querySelector('.navbar .menu')?.classList.toggle('openmenu')
+  // On overlay click
+  document.querySelector('.overlay')?.addEventListener('click', sidebarStore.closeSidebar)
+
+  // On link click
+  document.querySelectorAll('.link').forEach((link) => {
+    link.addEventListener('click', () => {
+      sidebarStore.closeSidebar()
+    })
   })
 })
 
@@ -33,8 +31,8 @@ onMounted(() => {
 
 <template>
   <div class="content">
-    <NavbarComponent @toggleSidebar="toggleSidebar" />
-    <div class="main" @click="hideSidebar">
+    <NavbarComponent/>
+    <div class="main">
       <IntroComponent />
       <AboutComponent />
       <PowersComponent />
@@ -45,7 +43,7 @@ onMounted(() => {
     </div>
     <FooterComponent />
   </div>
-  <SidebarMenu v-motion-slide-right :class="{ show: SidebarVisible, hidden: !SidebarVisible }" />
+  <SidebarMenu />
 </template>
 
 <style scoped></style>

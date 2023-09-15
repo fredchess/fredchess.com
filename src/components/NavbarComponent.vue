@@ -1,9 +1,10 @@
 <script setup>
-const emit = defineEmits(['toggleSidebar']);
-function toggleMenu() {
-  document.querySelector('.menu').classList.toggle('openmenu')
+import { useSidebar } from '../stores/sidebar'
 
-  emit('toggleSidebar')
+const sidebarStore = useSidebar()
+
+function toggleMenu() {
+  sidebarStore.toggleSidebar()
 }
 </script>
 
@@ -68,7 +69,8 @@ function toggleMenu() {
 }
 
 .menu span {
-  background: linear-gradient(to right, #64ffda 0%, #1e3c72 100%);
+  /* background: linear-gradient(to right, #64ffda 0%, #1e3c72 50%, #64ffda 100%); */
+  background-color: #64ffda;
   width: 100%;
   height: 2.5px;
   border-radius: 5px;
@@ -80,6 +82,10 @@ function toggleMenu() {
   transition:
     transform 0.5s,
     width 0.5s;
+}
+
+.openmenu span {
+  background: linear-gradient(to right, #64ffda 0%, #1e3c72 50%, #64ffda 100%);
 }
 
 .menu .line-1 {
