@@ -12,7 +12,7 @@ console.log()
       <a href="#about" class="link py-3" :class="{'selected': route.fullPath.includes('about')}">
         <span>About</span>
       </a>
-      <a href="#ab" class="link py-3" :class="{'selected': route.fullPath.includes('experience')}">
+      <a href="#experience" class="link py-3" :class="{'selected': route.fullPath.includes('experience')}">
         <span>Experience</span>
       </a>
       <a href="#projects" class="link py-3" :class="{'selected': route.fullPath.includes('projects')}">

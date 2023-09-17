@@ -23,7 +23,7 @@ function showCompany (id)
                 </button>
             </div>
             <div class="tasks flex flex-col space-y-4 w-full sm:w-[70%]" v-if="selected_experience">
-                <div class="experience_title text-3xl mb-1">
+                <div class="experience_title text-2xl md:text-3xl mb-1">
                     <span>
                         {{ selected_experience.function }}
                     </span>

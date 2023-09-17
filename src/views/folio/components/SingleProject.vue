@@ -17,7 +17,7 @@ defineProps({
       :class="{ 'flex-row-reverse': id % 2 == 0 }"
     >
       <div class="project_desc w-full sm:w-[45%]">
-        <div class="title text-important text-4xl mb-5 font-bold">
+        <div class="title text-important text-2xl sm:text-4xl mb-5 font-bold">
           <a :href="live_link">{{ name }}</a>
         </div>
         <div class="description text-sm text-justify text-appgray">{{ description }}</div>
