@@ -35,14 +35,31 @@ defineProps({
           </div>
         </div>
         <div class="buttons flex space-x-5 items-center justify-start">
-          <div
-            class="btn text-important py-3 px-5 w-max border-important border font-bold flex space-x-2 cursor-pointer"
-          >
-            <span>Live project</span>
-            <span>
-              <font-awesome-icon icon="fa-solid fa-arrow-up-right-from-square" />
-            </span>
-          </div>
+          <button class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3">
+            <span class=" font-bold">Live project</span>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 15L15 5"
+                stroke=""
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6.875 5L15 5L15 13.125"
+                stroke=""
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
           <div class="github cursor-pointer">
             <font-awesome-icon icon="fab fa-github" class="fa-2x text-important" />
           </div>
@@ -59,11 +76,18 @@ defineProps({
 </template>
 
 <style scoped>
-
 @media (min-width: 640px) {
-    .container {
-        background-image: none !important;;
-    }
+  .container {
+    background-image: none !important;
+  }
 }
 
+button {
+  stroke: #64ffda;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  stroke: black;
+}
 </style>
