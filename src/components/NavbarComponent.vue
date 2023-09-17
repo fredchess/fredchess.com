@@ -11,7 +11,7 @@ function toggleMenu() {
 
 <template>
   <div
-    class="navbar relative flex justify-between items-center py-5 px-5 border-bottom-gradient w-[99%] m-auto overflow-hidden"
+    class="navbar relative flex justify-between items-center py-3 sm:py-5 px-5 border-bottom-gradient w-[99%] m-auto overflow-hidden"
   >
     <a href="#">
       <div class="logo w-[clamp(8rem,12vw,12rem)]" v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">

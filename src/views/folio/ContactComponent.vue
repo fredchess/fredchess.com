@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <section class="contact min-h-[50vh] mb-7" id="contact">
+  <section class="contact min-h-[50vh] mb-7" id="contact" data-aos="fade-up" data-aos-duration="1000">
     <div class="container flex flex-col space-y-10 justify-center items-center text-center">
       <h2 class="message text-[clamp(2rem,4vw,4rem)] font-bold my-7 sm:leading-loose">
         Have a project in mind? Let’s get to work.👋📫

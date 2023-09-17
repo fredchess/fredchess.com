@@ -12,9 +12,14 @@ import SidebarMenu from './components/SidebarMenu.vue'
 import { onMounted } from 'vue'
 import { useSidebar } from './stores/sidebar'
 
+import AOS  from 'aos';
+import 'aos/dist/aos.css';
+
 const sidebarStore = useSidebar()
 
 onMounted(() => {
+  // Init AOS
+  AOS.init()
   // On overlay click
   document.querySelector('.overlay')?.addEventListener('click', sidebarStore.closeSidebar)
 

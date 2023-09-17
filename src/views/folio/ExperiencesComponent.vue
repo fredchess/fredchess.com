@@ -13,7 +13,7 @@ function showCompany (id)
 </script>
 
 <template>
-    <section class="experiences min-h-[80vh]" id="experience">
+    <section class="experiences min-h-[80vh]" id="experience" data-aos="fade-up" data-aos-duration="1000">
         <HeaderSection :title="'Where I\'ve Worked'" />
         <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline">
             <div class="nav flex sm:flex-col whitespace-nowrap w-full sm:w-max overflow-auto">

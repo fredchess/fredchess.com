@@ -4,7 +4,7 @@ import HeaderSection from '../../components/HeaderSection.vue';
 </script>
 
 <template>
-    <section class="powers mb-10 sm:mb-20">
+    <section class="powers mb-10 sm:mb-20" data-aos="fade-up" data-aos-duration="1000">
         <HeaderSection :title="'My Superpowers'" />
         <div class="techs flex flex-wrap gap-10">
             <img title="csharp" src="/images/stacks/csharp.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
