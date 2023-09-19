@@ -42,7 +42,7 @@ onMounted(() => {
         <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*3.4">Blogs</span>
       </a>
     </div>
-    <div class="menu sm:hidden z-10" @click="toggleMenu">
+    <div class="menu sm:hidden z-10" @click="toggleMenu" v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">
       <div>
         <span class="line-1"></span>
         <span class="line-2"></span>

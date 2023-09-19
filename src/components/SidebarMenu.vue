@@ -50,7 +50,7 @@ console.log()
   top: 0;
   right: 0;
   z-index: 6;
-  background-color: #2d2749;
+  background-color: #100837;
   padding: 1rem .75rem;
   /* transform: translateX(450px); */
   transition: transform .5s;

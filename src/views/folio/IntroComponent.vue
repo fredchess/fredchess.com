@@ -44,7 +44,7 @@
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"
-        :delay="1500 * 1.20"
+        :delay="1500 * 1.10"
       >
         <span class="font-bold">Pull my CV</span>
         <font-awesome-icon icon="fa-regular fa-file" class="" />
