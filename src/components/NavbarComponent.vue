@@ -1,17 +1,24 @@
 <script setup>
 import { useRoute } from 'vue-router';
 import { useSidebar } from '../stores/sidebar'
+import { onMounted } from 'vue';
 
 const sidebarStore = useSidebar()
 const route = useRoute()
 function toggleMenu() {
   sidebarStore.toggleSidebar()
 }
+
+onMounted(() => {
+  setTimeout(() => {
+    document.querySelector('.navbar').classList.add('border-bottom-gradient')
+  }, 200*5)
+})
 </script>
 
 <template>
   <div
-    class="navbar relative flex justify-between items-center py-3 sm:py-5 px-5 border-bottom-gradient w-[99%] m-auto overflow-hidden"
+    class="navbar relative flex justify-between items-center py-3 sm:py-5 px-5 w-[99%] m-auto overflow-hidden"
   >
     <a href="#">
       <div class="logo w-[clamp(8rem,12vw,12rem)]" v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">

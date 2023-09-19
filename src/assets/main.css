@@ -118,7 +118,7 @@ section {
   transform-origin: bottom right;
 }
 
-.link.selected span::after, .link:hover span::after {
+.menu .link.selected span::after, .link:hover span::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
