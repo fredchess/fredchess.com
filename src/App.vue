@@ -40,7 +40,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <LoaderComponent :class="{'z-50' : loaderStore.getLoaderState() }"/>
+  <LoaderComponent :class="{'z-1' : loaderStore.getLoaderState() }" v-if="loaderStore.getLoaderState()"/>
   <div class="content" v-if="!loaderStore.getLoaderState()">
     <NavbarComponent/>
     <div class="main">

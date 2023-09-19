@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <footer class="footer border-top-gradient p-7">
@@ -17,13 +18,6 @@
             <font-awesome-icon icon="fab fa-instagram" class="fa-2x hover:text-important" />
         </a>
       </div>
-      <!-- <div class="links">
-        <a href="#" class="link">About</a>
-        <a href="#experience" class="link">Experience</a>
-        <a href="#projects" class="link">Projects</a>
-        <a href="#contact" class="link">Contact</a>
-        <a href="#blogs" class="link">Blogs</a>
-      </div> -->
     </div>
   </footer>
 </template>
