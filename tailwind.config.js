@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         important: '#64ffda',
-        appgray: '#8892B0'
+        appgray: '#8892B0',
+        appbg: '#05001e'
       },
       backgroundImage: {
         'project-1': "url('/images/projects/project-1.png')",

@@ -30,7 +30,7 @@
         A profesionnal Full stack developer.
       </h3>
       <span
-        class="text-lg block text-appgray mt-5"
+        class="text-lg block text-appgray mt-5 w-full sm:w-2/3"
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"

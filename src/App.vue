@@ -8,14 +8,17 @@ import ExperiencesComponent from './views/folio/ExperiencesComponent.vue'
 import ProjectComponent from './views/folio/ProjectComponent.vue'
 import OtherProjects from './views/folio/OtherProjects.vue'
 import ContactComponent from './views/folio/ContactComponent.vue'
+import LoaderComponent from './components/LoaderComponent.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
 import { onMounted } from 'vue'
 import { useSidebar } from './stores/sidebar'
+import { useLoader } from './stores/loader'
 
 import AOS  from 'aos';
 import 'aos/dist/aos.css';
 
 const sidebarStore = useSidebar()
+const loaderStore = useLoader()
 
 onMounted(() => {
   // Init AOS
@@ -29,13 +32,16 @@ onMounted(() => {
       sidebarStore.closeSidebar()
     })
   })
+
+  // Loader
 })
 
 // inject()
 </script>
 
 <template>
-  <div class="content">
+  <LoaderComponent :class="{'z-50' : loaderStore.getLoaderState() }"/>
+  <div class="content" v-if="!loaderStore.getLoaderState()">
     <NavbarComponent/>
     <div class="main">
       <IntroComponent />

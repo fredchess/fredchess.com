@@ -5,6 +5,7 @@ import { faArrowUpRightFromSquare, faBarsStaggered, faXmark } from '@fortawesome
 import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faInstagram, faLinkedin, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { MotionPlugin } from '@vueuse/motion'
+import vue3lottie from 'vue3-lottie'
 
 
 import { createApp } from 'vue'
@@ -21,5 +22,6 @@ const app = createApp(App).component('font-awesome-icon', FontAwesomeIcon)
 app.use(createPinia())
 app.use(router)
 app.use(MotionPlugin)
+app.use(vue3lottie)
 
 app.mount('#app')
