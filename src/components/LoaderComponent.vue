@@ -8,8 +8,8 @@ const loaderStore = useLoader()
 const loader = ref(null)
 
 function complete() {
-  loader.value.destroy()
-  loaderStore.changeLoading(false)
+    loader.value.destroy()
+    loaderStore.changeLoading(false)
 }
 </script>
 
