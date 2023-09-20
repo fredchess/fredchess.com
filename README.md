@@ -1,35 +1,46 @@
-# frontend
+<div align="center">
+  <img alt="Logo" src="public/images/logo_fredchess.svg" width="50%" />
+</div>
+<h1 align="center">
+  fredchess.com
+</h1>
+<p align='center'>
+this is the first draft of my personal portfolio that I do. It was done using <a href="https://vuejs.org/">vue.js</a> and <a href="https://vitejs.dev/">Vite</a>.
+</p>
 
-This template should help get you started developing with Vue 3 in Vite.
+<img align="center" src="public/images/home.png" />
 
-## Recommended IDE Setup
+## Tools used
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. **Adobe After Effect + Lottie** for the startup animation
 
-## Customize configuration
+2. **Slider** for slides
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+3. **AOS** for animations
 
-## Project Setup
+4. **Font Awesome** for Icons
 
-```sh
+## Installation steps
+
+1. Install all dependencies
+
+``` sh 
 npm install
 ```
+2. Run app locally
 
-### Compile and Hot-Reload for Development
-
-```sh
+``` sh 
 npm run dev
 ```
 
-### Compile and Minify for Production
+3. Build for deployment
 
-```sh
+``` sh 
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Copyrigth informations
 
-```sh
-npm run lint
-```
+This is open an open source project, you can fork it but make sure to give me a credit by linking back to [fredchess.com](https://fredchess.com). 
+
+I am happy to share this with you, but I will be even more so seeing that I am crediting for the work I have done.
