@@ -8,7 +8,7 @@
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"
-        :delay="1500"
+        :delay="1700"
         >Hello 👋, I’m</span
       >
       <h2
@@ -16,7 +16,7 @@
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"
-        :delay="1500 * 1.05"
+        :delay="1700 * 1.05"
       >
         Frederick Essono.
       </h2>
@@ -25,7 +25,7 @@
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"
-        :delay="1500 * 1.1"
+        :delay="1700 * 1.1"
       >
         A profesionnal Full stack developer.
       </h3>
@@ -34,7 +34,7 @@
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"
-        :delay="1500 * 1.15"
+        :delay="1700 * 1.15"
       >
         I create meaningful solutions for your brands and give your customers the best experience
         possible.</span
@@ -44,7 +44,7 @@
         v-motion
         :initial="{ opacity: 0 }"
         :enter="{ opacity: 1 }"
-        :delay="1500 * 1.10"
+        :delay="1700 * 1.10"
       >
         <span class="font-bold">Pull my CV</span>
         <font-awesome-icon icon="fa-regular fa-file" class="" />
