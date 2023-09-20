@@ -8,8 +8,10 @@ const loaderStore = useLoader()
 const loader = ref(null)
 
 function complete() {
+  setTimeout(() => {
     loader.value.destroy()
     loaderStore.changeLoading(false)
+  }, 200)
 }
 </script>
 
