@@ -5,7 +5,7 @@
   fredchess.com
 </h1>
 <p align='center'>
-this is the first draft of my personal portfolio that I do. It was done using <a href="https://vuejs.org/">vue.js</a> and <a href="https://vitejs.dev/">Vite</a>.
+this is the first draft of my personal portfolio that I do. It was done using <a href="https://vuejs.org/">vue.js</a>, <a href="https://tailwindcss.com/">Tailwind Css</a> and  <a href="https://vitejs.dev/">Vite</a>.
 </p>
 
 <img align="center" src="public/images/home.png" />
