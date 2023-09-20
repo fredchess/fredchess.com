@@ -17,27 +17,27 @@ import HeaderSection from '../../components/HeaderSection.vue'
       >
         <div class="text sm:w-[60%] space-y-2 text-sm md:text-base text-appgray font-medium">
           <p class="leading-relaxed">
-            Hello! My name is Frederick and I am a full-stack developer passionate about creating
-            web applications. My development adventure began a few years ago when I discovered my
-            passion for programming. Since then, I have explored different technologies and
-            frameworks to create exceptional web experiences.
+            Greetings! I am Frederick, a full-stack developer who loves to build web applications. I
+            started my journey as a developer a few years ago when I found out how much I enjoyed
+            coding. Since then, I have learned and used different technologies and frameworks to
+            create amazing web experiences.
           </p>
           <p class="leading-relaxed">
-            I specialize in technologies such as . NET, Laravel, Vue.js and Python with FastAPI. I
-            have gained a solid experience in developing robust and powerful applications using
-            these tools.
+            My expertise lies in technologies such as . NET, Laravel, Vue.js and Python with
+            FastAPI. I have developed strong skills in using these tools to create reliable and
+            powerful applications.
           </p>
           <p class="leading-relaxed">
-            Over the years, I have had the chance to work on various interesting projects, ranging
-            from internal applications of companies to consumer web platforms. I also had the
-            opportunity to collaborate with talented teams in different environments, which allowed
-            me to gain a deep understanding of project management and effective collaboration.
+            I have worked on various exciting projects over the years, from internal applications
+            for companies to consumer web platforms. I have also collaborated with talented teams in
+            different settings, which gave me a deep insight into project management and effective
+            collaboration.
           </p>
           <p class="leading-relaxed">
-            Apart from development, I have several other passions that contribute to my personal
-            growth. I like to play chess, a game that requires reflection and strategy. I also enjoy
-            the regular practice of a sport, which helps me maintain a balance between my
-            professional and personal life.
+            Besides development, I have several other passions that enrich my personal growth. I
+            like to play chess, a game that challenges me to think and strategize. I also practice a
+            sport regularly, which helps me keep a balance between my professional and personal
+            life.
           </p>
         </div>
       </div>
