@@ -8,22 +8,22 @@ console.log()
 
 <template>
   <aside class="sidebar-menu hidden flex flex-col justify-center items-center">
-    <nav class="menu flex flex-col m-auto text-2xl">
-      <a href="#about" class="link py-3" :class="{'selected': route.fullPath.includes('about')}">
+    <nav class="menu flex flex-col m-auto text-xl">
+      <RouterLink :to="{ name: 'home', hash: '#about' }" class="link py-3" :class="{'selected': route.fullPath.includes('about')}">
         <span>About</span>
-      </a>
-      <a href="#experience" class="link py-3" :class="{'selected': route.fullPath.includes('experience')}">
+      </RouterLink>
+      <RouterLink :to="{ name: 'home', hash: '#experience' }" class="link py-3" :class="{'selected': route.fullPath.includes('experience')}">
         <span>Experience</span>
-      </a>
-      <a href="#projects" class="link py-3" :class="{'selected': route.fullPath.includes('projects')}">
+      </RouterLink>
+      <RouterLink :to="{ name: 'home', hash: '#projects' }" class="link py-3" :class="{'selected': route.fullPath.includes('projects')}">
         <span>Projects</span>
-      </a>
-      <a href="#contact" class="link py-3" :class="{'selected': route.fullPath.includes('contact')}">
+      </RouterLink>
+      <RouterLink :to="{ name: 'home', hash: '#contact' }" class="link py-3" :class="{'selected': route.fullPath.includes('contact')}">
         <span>Contact</span>
-      </a>
-      <a href="#blogs" class="link py-3">
+      </RouterLink>
+      <RouterLink to="/blogs" class="link py-3">
         <span>Blogs</span>
-      </a>
+      </RouterLink>
     </nav>
     <div class="socials flex items-center justify-center space-x-5">
         <a href="https://github.com/frede" target="_blank">

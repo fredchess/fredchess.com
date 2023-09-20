@@ -39,7 +39,7 @@ function showCompany (id)
                     <span class="mx-2"> - </span>
                     <span>{{ selected_experience.still_workinng ? 'Present' : selected_experience.end_date }}</span>
                 </div>
-                <div class="task flex justify-center items-center text-left" v-for="(task, idx) in selected_experience.tasks" :key="idx">
+                <div class="task flex justify-center items-center text-left text-sm" v-for="(task, idx) in selected_experience.tasks" :key="idx">
                     <span>{{ task }}</span>
                 </div>
                 <!-- <div class="border absolute"></div> -->

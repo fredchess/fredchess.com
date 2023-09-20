@@ -64,6 +64,7 @@ section {
 .main {
   padding: 0 10vw;
   scroll-behavior: smooth;
+  min-height: 100vh;
 }
 
 .intro {

@@ -26,21 +26,21 @@ onMounted(() => {
       </div>
     </a>
     <div class="links space-x-5 hidden sm:flex">
-      <a href="#about" class="link" :class="{'selected': route.fullPath.includes('about')}">
+      <RouterLink  :to="{ name: 'home', hash: '#about' }" class="link" :class="{'selected': route.fullPath.includes('about')}">
         <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">About</span>
-      </a>
-      <a href="#experience" class="link" :class="{'selected': route.fullPath.includes('experience')}">
+      </RouterLink>
+      <RouterLink  :to="{ name: 'home', hash: '#experience' }" class="link" :class="{'selected': route.fullPath.includes('experience')}">
         <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1.6">Experience</span>
-      </a>
-      <a href="#projects" class="link" :class="{'selected': route.fullPath.includes('projects')}">
+      </RouterLink>
+      <RouterLink  :to="{ name: 'home', hash: '#projects' }" class="link" :class="{'selected': route.fullPath.includes('projects')}">
         <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*2.2">Projects</span>
-      </a>
-      <a href="#contact" class="link" :class="{'selected': route.fullPath.includes('contact')}">
+      </RouterLink>
+      <RouterLink  :to="{ name: 'home', hash: '#contact' }" class="link" :class="{'selected': route.fullPath.includes('contact')}">
         <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*2.8">Contact</span>
-      </a>
-      <a href="#blogs" class="link">
+      </RouterLink>
+      <RouterLink to="/blogs" class="link">
         <span  v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*3.4">Blogs</span>
-      </a>
+      </RouterLink>
     </div>
     <div class="menu sm:hidden z-10" @click="toggleMenu" v-motion :initial="{ opacity: 0, y: -20 }" :enter="{ opacity: 1, y: 0 }" :delay="200*1">
       <div>
