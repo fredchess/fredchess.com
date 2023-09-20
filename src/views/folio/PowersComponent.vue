@@ -12,7 +12,9 @@ import HeaderSection from '../../components/HeaderSection.vue';
             <img title="Laravel" src="/images/stacks/laravel.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
             <img title="Javascript" src="/images/stacks/js.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
             <img title="Vue.js" src="/images/stacks/vue.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
-            <img title="Node" src="/images/stacks/node.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
+            <img title="Node" src="/images/stacks/php.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
+            <img title="Node" src="/images/stacks/sql.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
+            <img title="Node" src="/images/stacks/python.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
             <img title="Node Package Manager" src="/images/stacks/npm.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
             <img title="Tailwind Css" src="/images/stacks/tailwindcss.svg" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">
             <img title="Visual Studio Code" src="/images/stacks/vscode.png" alt="" class="tech mb-10 w-[18%] sm:w-24 object-contain">

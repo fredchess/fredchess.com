@@ -21,12 +21,12 @@
     </div>
     <div class="phones text-center space-y-3 text-sm sm:text-base">
       <p>WhatsApp: 
-        <a href="https://wa.me/237694157954" class="link">
+        <a target="_blank" href="https://wa.me/237694157954?text=Hello%20Frederick" class="link">
           <span class="ml-3">(+237) 694 15 79 54</span>
         </a>
       </p>
       <p>Phone: 
-        <a href="tel:+237694157954" class="link">
+        <a target="_blank" href="tel:+237694157954" class="link">
           <span class="ml-3">(+237) 679 23 50 23</span>
         </a>
       </p>

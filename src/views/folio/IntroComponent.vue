@@ -39,16 +39,18 @@
         I create meaningful solutions for your brands and give your customers the best experience
         possible.</span
       >
-      <button
-        class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3 mt-7"
-        v-motion
-        :initial="{ opacity: 0 }"
-        :enter="{ opacity: 1 }"
-        :delay="1700 * 1.10"
-      >
-        <span class="font-bold">Pull my CV</span>
-        <font-awesome-icon icon="fa-regular fa-file" class="" />
-      </button>
+      <a href="/cv-frederickEssono-eng.pdf" target="_blank">
+        <button
+          class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3 mt-7"
+          v-motion
+          :initial="{ opacity: 0 }"
+          :enter="{ opacity: 1 }"
+          :delay="1700 * 1.1"
+        >
+          <span class="font-bold">Pull my CV</span>
+          <font-awesome-icon icon="fa-regular fa-file" class="" />
+        </button>
+      </a>
     </div>
   </section>
 </template>

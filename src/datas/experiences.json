@@ -12,10 +12,10 @@
         "start_date": "2019",
         "end_date": "2020",
         "tasks": [
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+            "Design and develop back-end applications including APIs utilizing Express Node.js and MongoDB.",
+            "Design and modelling database architectures including SQL and NoSQL.",
+            "Develop new application features and distributed services that support high-scale applications.",
+            "Help to evolve front-end and back-end stack, using Typescript to have less chance for errors in run time."
         ]
     },
     {
@@ -31,14 +31,33 @@
         "start_date": "2020",
         "end_date": "2021",
         "tasks": [
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+            "Develop new features on a wordpress site by creating personalized themes and plugins",
+            "Develop the website for a humanitarian organization for human rights in Cameroon (https://echodh.net) allowing journalists to publish events related to human rights."
+        ]
+    },{
+        "id": 3,
+        "company": "One Nation One Heart",
+        "company_link": "https://onoh.org",
+        "function": "Lead full stack web developer",
+        "location": {
+            "name": "Yaounde, Cameroon",
+            "link": "https://maps.app.goo.gl/Qf9iLfyTbaURU2x56"
+        },
+        "still_workinng": true,
+        "start_date": "2020",
+        "end_date": "2023",
+        "tasks": [
+            "Team management in the web development department, which ranges from assigning tasks to different members to fixing bugs.",
+            "Development of interfaces for the front office of the site and the integration of these interfaces as blade views (laravel)",
+            "Development of interfaces for the backoffice(Admin dashboard) of the site and the integration of these interfaces as blade views",
+            "Database design",
+            "Backend development (controllers, models, databases...)",
+            "Using MVC pattern to implement the interfaces",
+            "Tierce payment APIs integration (MyCoolPay, Stripe,...)"
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "company": "Upgrade Group",
         "company_link": "https://gohze.com/",
         "function": ".NET web developer",
@@ -50,13 +69,16 @@
         "start_date": "2021",
         "end_date": "2023",
         "tasks": [
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+            "Web design integration with vue.js",
+            "Frontend development with vue.js for resource management dashboards.",
+            "Backend development with Laravel",
+            "Use of . NET Core for the development of robust, efficient and fast applications.",
+            "Use of Nopcommerce, which is an open source CMS based on . NET core and which allows the development of e-commerce sites.",
+            " Development of Nopcommerce plugins to add new features."
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "company": "Bonitech Sarl",
         "company_link": "#",
         "function": "Php Developer",
@@ -68,10 +90,10 @@
         "start_date": "2023",
         "end_date": "2023",
         "tasks": [
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+            "Develop new functionality for the E-commerce site of our main client Toolbrothers",
+            "Develop showcase sites for this customer and others.",
+            "Development of a resource management platform (dashboard) for sellers who have their products on our e-commerce site.",
+            "Writing python scripts to automate certain tasks."
         ]
     }
 ]

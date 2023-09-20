@@ -17,7 +17,7 @@ defineProps({
       <div class="header flex justify-between mb-7">
         <span class="type">{{ type }}</span>
         <div class="links flex space-x-3">
-          <a href="https://github.com/fredchess/portfolio-frontend" class="hover:text-important">
+          <a :href="git_link" class="hover:text-important" target="_blank" :class="{ 'hidden': git_link.length == 0 }">
             <svg
               width="25"
               height="24"
@@ -38,7 +38,7 @@ defineProps({
               </defs>
             </svg>
           </a>
-          <a href="https://github.com/fredchess/portfolio-frontend" class="hover:text-important">
+          <a :href="live_link" target="_blank" class="hover:text-important">
             <svg
               width="25"
               height="24"
@@ -55,7 +55,7 @@ defineProps({
         </div>
       </div>
       <div class="mb-5 text-important font-bold text-xl">{{ name }}</div>
-      <p class="text-sm font-semibold text-appgray">{{ description }}</p>
+      <p class="text-sm font-semibold text-appgray min-h-[100px]">{{ description }}</p>
       <div class="techs space-y-5 my-5">
         <div class="font-bold">Technos used:</div>
         <div class="technos_container flex space-x-3">

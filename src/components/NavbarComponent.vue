@@ -21,7 +21,7 @@ onMounted(() => {
     class="navbar relative  py-3 sm:py-5 px-5 w-[99%] m-auto overflow-hidden"
   >
     <div class="flex justify-between items-center">
-      <a href="#">
+      <RouterLink to="/">
         <div
           class="logo w-[clamp(8rem,12vw,12rem)]"
           v-motion
@@ -31,7 +31,7 @@ onMounted(() => {
         >
           <img src="/images/logo_fredchess.svg" alt="" />
         </div>
-      </a>
+      </RouterLink>
       <div class="links space-x-5 hidden sm:flex">
         <RouterLink
           :to="{ name: 'home', hash: '#about' }"
@@ -135,7 +135,7 @@ onMounted(() => {
   transition: width 1s;
 }
 
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 640px) {
   .navbar-border { transition: width 200ms; }
 }
 

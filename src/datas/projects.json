@@ -3,10 +3,10 @@
         "id": 1,
         "type": "Web application",
         "name": "Montampon encreur",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
-        "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
-        "image": "/images/projects/project-1.png",
+        "description": "Montampon encreur is a website that allows you to buy customized products like t-shirts, hoodies, bags, etc. Using the 'configurator' feature, you can customize your own products as you wish.",
+        "live_link": "https://montamponencreur.com",
+        "git_link": "",
+        "image": "/images/projects/montampon.png",
         "used_technos": [
             {
                 "name": "Javascript",
@@ -17,12 +17,12 @@
                 "image": "/images/stacks/csharp.png"
             },
             {
-                "name": "Laravel",
-                "image": "/images/stacks/laravel.png"
+                "name": ".NET",
+                "image": "/images/stacks/asp.net.png"
             },
             {
-                "name": "Vue Js",
-                "image": "/images/stacks/vue.png"
+                "name": "Database Management",
+                "image": "/images/stacks/sql.png"
             }
         ]
     },
@@ -30,26 +30,26 @@
         "id": 2,
         "type": "Web application",
         "name": "One Nation One Heart",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
-        "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
-        "image": "/images/projects/project-2.png",
+        "description": "One Nation One Heart is a website that allows you to donate to the orphanage of your choice. Here are all the orphanages of Cameroon, you can choose the one you want to donate to.",
+        "live_link": "https://onoh.org",
+        "git_link": "https://github.com/wdjopa/onenation_oneheart",
+        "image": "/images/projects/onoh.png",
         "used_technos": [
-            {
-                "name": "Javascript",
-                "image": "/images/stacks/js.png"
-            },
-            {
-                "name": "Csharp",
-                "image": "/images/stacks/csharp.png"
-            },
             {
                 "name": "Laravel",
                 "image": "/images/stacks/laravel.png"
             },
             {
-                "name": "Vue Js",
-                "image": "/images/stacks/vue.png"
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Database Management",
+                "image": "/images/stacks/sql.png"
+            },
+            {
+                "name": "Bootstrap",
+                "image": "/images/stacks/bootstrap.png"
             }
         ]
     },
@@ -57,90 +57,90 @@
         "id": 3,
         "type": "Web application",
         "name": "Toolbrothers",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
-        "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
-        "image": "/images/projects/project-3.png",
+        "description": "ToolBrothers is a website that allows you to buy tools like drills, saws, etc. This website is one of the famous e-commerce tools website in Deutchland.",
+        "live_link": "https://toolbrothers.com",
+        "git_link": "",
+        "image": "/images/projects/toolbrothers.png",
         "used_technos": [
+            {
+                "name": "Python",
+                "image": "/images/stacks/python.png"
+            },
+            {
+                "name": "PHP",
+                "image": "/images/stacks/php.png"
+            },
             {
                 "name": "Javascript",
                 "image": "/images/stacks/js.png"
             },
             {
-                "name": "Csharp",
-                "image": "/images/stacks/csharp.png"
-            },
-            {
-                "name": "Laravel",
-                "image": "/images/stacks/laravel.png"
-            },
-            {
-                "name": "Vue Js",
-                "image": "/images/stacks/vue.png"
+                "name": "Database Management",
+                "image": "/images/stacks/sql.png"
             }
         ]
     },
     {
         "id": 4,
         "type": "Web application",
-        "name": "Toolbrothers 2",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
-        "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
+        "name": "Atelier cosmetique",
+        "description": "Atelier cosmetique is the initiative of a young Cameroonian concerned about the skin problems that his African brothers and sisters go through because of the bad quelite of the products they buy. We will therefore market beauty products of all kinds and very good quality.",
+        "live_link": "https://ateliercosmetique.fredchess.com",
+        "git_link": "",
         "image": "/images/projects/project-2.png",
         "used_technos": [
-            {
-                "name": "Javascript",
-                "image": "/images/stacks/js.png"
-            },
             {
                 "name": "Csharp",
                 "image": "/images/stacks/csharp.png"
             },
             {
-                "name": "Laravel",
-                "image": "/images/stacks/laravel.png"
+                "name": ".NET",
+                "image": "/images/stacks/asp.net.png"
             },
             {
-                "name": "Vue Js",
-                "image": "/images/stacks/vue.png"
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Bootstrap",
+                "image": "/images/stacks/bootstrap.png"
+            },
+            {
+                "name": "Database Management",
+                "image": "/images/stacks/sql.png"
             }
         ]
     },
     {
         "id": 5,
         "type": "Web application",
-        "name": "Toolbrothers 3",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
-        "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
+        "name": "JFN University website",
+        "description": "Born from a proactive approach led by Alphonse NAFACK, an experienced banker and passionate about education and training, the Jacky Felly Nafack HighTech University Institute, in short JFN-HUI , is part of a differentiation trajectory within a changing Cameroonian university landscape.",
+        "live_link": "https://jfn-univ.com/",
+        "git_link": "",
         "image": "/images/projects/project-2.png",
         "used_technos": [
-            {
-                "name": "Javascript",
-                "image": "/images/stacks/js.png"
-            },
-            {
-                "name": "Csharp",
-                "image": "/images/stacks/csharp.png"
-            },
             {
                 "name": "Laravel",
                 "image": "/images/stacks/laravel.png"
             },
             {
-                "name": "Vue Js",
-                "image": "/images/stacks/vue.png"
+                "name": "Javascript",
+                "image": "/images/stacks/js.png"
+            },
+            {
+                "name": "Bootstrap",
+                "image": "/images/stacks/bootstrap.png"
             }
         ]
     },
     {
         "id": 6,
         "type": "Web application",
-        "name": "Toolbrothers 4",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
-        "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
+        "name": "Karry N Go",
+        "description": "Karryngo as a THE MULTIMODAL LOGISTICS MARKET NETWORK is set to grow rapidly into a global brand, recognized for its customized services and innovative products and logistics solutions. Africa is our land and terrain and we will speedily close the existing gaps of the logistics market.",
+        "live_link": "https://karryngo.com/",
+        "git_link": "",
         "image": "/images/projects/project-2.png",
         "used_technos": [
             {
@@ -148,31 +148,23 @@
                 "image": "/images/stacks/js.png"
             },
             {
-                "name": "Csharp",
-                "image": "/images/stacks/csharp.png"
-            },
-            {
-                "name": "Laravel",
-                "image": "/images/stacks/laravel.png"
-            },
-            {
-                "name": "Vue Js",
-                "image": "/images/stacks/vue.png"
+                "name": "Database Management",
+                "image": "/images/stacks/sql.png"
             }
         ]
     },
     {
         "id": 7,
         "type": "Web application",
-        "name": "Toolbrothers 5",
-        "description": "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on",
+        "name": "Hidima",
+        "description": "Hidima is a mobile web application that connects individuals with service providers. The idea here is to be able not only to create jobs but also to bring a digital rating to certain professions.",
         "live_link": "https://hidima.fredchess.com",
-        "git_link": "https://hidima.fredchess.com",
+        "git_link": "",
         "image": "/images/projects/project-2.png",
         "used_technos": [
             {
-                "name": "Javascript",
-                "image": "/images/stacks/js.png"
+                "name": ".NET",
+                "image": "/images/stacks/asp.net.png"
             },
             {
                 "name": "Csharp",
@@ -185,6 +177,10 @@
             {
                 "name": "Vue Js",
                 "image": "/images/stacks/vue.png"
+            },
+            {
+                "name": "Database Management",
+                "image": "/images/stacks/sql.png"
             }
         ]
     }

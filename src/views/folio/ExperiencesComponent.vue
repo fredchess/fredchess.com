@@ -13,7 +13,7 @@ function showCompany (id)
 </script>
 
 <template>
-    <section class="experiences min-h-[80vh]" id="experience" data-aos="fade-up" data-aos-duration="1000">
+    <section class="experiences min-h-[60vh]" id="experience" data-aos="fade-up" data-aos-duration="1000">
         <HeaderSection :title="'Where I\'ve Worked'" />
         <div class="experiences_container flex flex-col sm:flex-row space-y-5 items-baseline">
             <div class="nav flex sm:flex-col whitespace-nowrap w-full sm:w-max overflow-auto">
@@ -39,7 +39,7 @@ function showCompany (id)
                     <span class="mx-2"> - </span>
                     <span>{{ selected_experience.still_workinng ? 'Present' : selected_experience.end_date }}</span>
                 </div>
-                <div class="task flex justify-center items-center text-left text-sm" v-for="(task, idx) in selected_experience.tasks" :key="idx">
+                <div class="task flex justify-start items-center text-left text-sm" v-for="(task, idx) in selected_experience.tasks" :key="idx">
                     <span>{{ task }}</span>
                 </div>
                 <!-- <div class="border absolute"></div> -->

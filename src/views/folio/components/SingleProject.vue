@@ -35,32 +35,36 @@ defineProps({
           </div>
         </div>
         <div class="buttons flex space-x-5 items-center justify-start">
-          <button class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3">
-            <span class=" font-bold">Live project</span>
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          <a :href="live_link">
+            <button
+              class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3"
             >
-              <path
-                d="M5 15L15 5"
-                stroke=""
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M6.875 5L15 5L15 13.125"
-                stroke=""
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-          <div class="github cursor-pointer">
+              <span class="font-bold">Live project</span>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 15L15 5"
+                  stroke=""
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.875 5L15 5L15 13.125"
+                  stroke=""
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </a>
+          <div class="github cursor-pointer" :class="{ 'hidden': git_link.length == 0 }">
             <font-awesome-icon icon="fab fa-github" class="fa-2x text-important" />
           </div>
         </div>
@@ -84,7 +88,7 @@ defineProps({
 
 button {
   stroke: #64ffda;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 button:hover {
