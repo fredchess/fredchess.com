@@ -44,3 +44,7 @@ npm run build
 This is open an open source project, you can fork it but make sure to give me a credit by linking back to [fredchess.com](https://fredchess.com). 
 
 I am happy to share this with you, but I will be even more so seeing that I am crediting for the work I have done.
+
+## Buy me a coffee
+
+This project is the result of an hardwork but I've decided to share it. So if you want to support me, you can do so via [My ko-fi link](https://ko-fi.com/s/36be94f8cf) and retrieve the original Figma file that helped me complete this work.
