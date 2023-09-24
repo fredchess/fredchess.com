@@ -5,16 +5,16 @@
   <footer class="footer border-top-gradient p-7 flex flex-col justify-center items-center space-y-5">
     <div class="container flex flex-col sm:flex-row justify-center items-center m-auto sm:space-x-5 space-y-7 sm:space-y-0">
       <div class="socials flex items-center justify-center space-x-5">
-        <a href="https://github.com/frede" target="_blank">
+        <a href="https://github.com/fredchess" target="_blank">
             <font-awesome-icon icon="fab fa-github" class="fa-xl hover:text-important" />
         </a>
-        <a href="https://www.linkedin.com/in/frede-chess/" target="_blank">
+        <a href="https://www.linkedin.com/in/frederick-essono" target="_blank">
             <font-awesome-icon icon="fab fa-linkedin-in" class="fa-xl hover:text-important" />
         </a>
-        <a href="https://twitter.com/fredechess" target="_blank">
+        <a href="https://twitter.com/essonofriedrich" target="_blank">
             <font-awesome-icon icon="fab fa-twitter" class="fa-xl hover:text-important" />
         </a>
-        <a href="https://www.instagram.com/fredechess/" target="_blank">
+        <a href="https://www.instagram.com/frederickessono/" target="_blank">
             <font-awesome-icon icon="fab fa-instagram" class="fa-xl hover:text-important" />
         </a>
       </div>

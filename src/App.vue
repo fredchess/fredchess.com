@@ -40,6 +40,7 @@ onMounted(() => {
     <FooterComponent />
   </div>
   <SidebarMenu />
+  <div class="scroll-top"></div>
 </template>
 
 <style scoped></style>
