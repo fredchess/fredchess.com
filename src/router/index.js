@@ -13,6 +13,11 @@ const router = createRouter({
       name: 'home',
       component: () => import ('@/views/HomePage.vue')
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: '404',
+      component: () => import ('@/views/404Page.vue')
+    },
   ],
   scrollBehavior: (to, from, savedPosition) => {
     if (savedPosition) return savedPosition;
