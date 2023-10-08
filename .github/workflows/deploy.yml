@@ -26,4 +26,4 @@ jobs:
           username: ${{ vars.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: dist/
-          target: /var/www/fredchess.com/v2/frontend
+          target: /var/www/fredchess.com/v2/frontend/testcicd
