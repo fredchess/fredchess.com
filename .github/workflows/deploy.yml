@@ -25,5 +25,6 @@ jobs:
           host: ${{ vars.HOST }}
           username: ${{ vars.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          source: dist/
-          target: /var/www/fredchess.com/v2/frontend/testcicd
+          source: dist/*
+          target: /var/www/fredchess.com/v2/frontend/
+          rm: true
