@@ -39,7 +39,7 @@ onMounted(() => {
     <section class="otherprojects min-h-screen" data-aos="fade-up" data-aos-duration="1000">
         <HeaderSection :title="'Other noteworthy projects'"/>
         <div class="other_project_container flex justify-between">
-            <div class="swiper">
+            <div class="swiper w-full">
                 <div class="swiper-wrapper">
                     <SingleOtherProject v-for="(project, idx) in selectedProjects" 
                         :key="idx"
