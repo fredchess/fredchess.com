@@ -23,7 +23,7 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           host: ${{ vars.HOST }}
-          username: $${{ vars.USERNAME }}
+          username: ${{ vars.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: dist/
           target: /var/www/fredchess.com/v2/frontend
