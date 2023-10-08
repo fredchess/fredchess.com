@@ -24,7 +24,6 @@ jobs:
         with:
           host: ${{ vars.HOST }}
           username: ${{ vars.USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.PASSWORD }}
           port: 22
-          script_stop: true
-          script: ls -all
+          script: ls
