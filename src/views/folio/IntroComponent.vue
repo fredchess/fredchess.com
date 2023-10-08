@@ -39,7 +39,7 @@
         I create meaningful solutions for your brands and give your customers the best experience
         possible.</span
       >
-      <a href="/cv-frederickEssono-eng.pdf" target="_blank">
+      <a href="/resumes/cv-frederickEssono-eng.pdf" target="_blank">
         <button
           class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3 mt-7"
           v-motion
