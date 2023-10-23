@@ -177,3 +177,17 @@ section {
     height: 8px; */
   background: #8892b0 !important;
 }
+
+/* Scroll */
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background: #64ffda;
+  border-radius: 100%;
+}
