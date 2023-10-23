@@ -36,7 +36,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <!-- <LoaderComponent :class="{'z-1' : loaderStore.getLoaderState() }" v-if="loaderStore.getLoaderState()"/> -->
+  <LoaderComponent :class="{'z-1' : loaderStore.getLoaderState() }" v-if="loaderStore.getLoaderState()"/>
   <div class="content" v-if="!loaderStore.getLoaderState()">
     <NavbarComponent />
     <RouterView/>
