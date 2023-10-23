@@ -29,7 +29,7 @@ onMounted(() => {
 
   // Loader
 
-  useScroller()
+  //useScroller()
 })
 
 // inject()
@@ -43,7 +43,7 @@ onMounted(() => {
     <FooterComponent />
   </div>
   <SidebarMenu />
-  <div class="scroll-top flex justify-center items-center" id="scroll-top">
+  <div class="scroll-top flex justify-center items-center hidden" id="scroll-top">
     <span id="progress-value" class="text-black font-bold">&#x1F815;</span>
   </div>
 </template>
