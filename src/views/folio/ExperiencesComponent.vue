@@ -3,6 +3,8 @@ import HeaderSection from '../../components/HeaderSection.vue';
 import experiences from '../../datas/experiences.json';
 import { ref } from 'vue';
 
+experiences.reverse()
+
 const selected_experience = ref(experiences[0] ?? null)
 
 function showCompany (id)
