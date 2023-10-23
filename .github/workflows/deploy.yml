@@ -26,6 +26,7 @@ jobs:
           username: ${{ vars.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
+            rm -r /var/www/fredchess.com/v2/frontend/.dist.old
             mv /var/www/fredchess.com/v2/frontend/dist /var/www/fredchess.com/v2/frontend/.dist.old
 
       - name: Deploy to VPS
