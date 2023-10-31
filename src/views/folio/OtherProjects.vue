@@ -5,7 +5,7 @@ import projects from '../../datas/projects.json';
 import { onMounted } from 'vue';
 // import {Swiper, SwiperSlide} from 'swiper/vue';
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -18,7 +18,7 @@ onMounted(() => {
         spaceBetween: 30,
         autoplay: { delay: 2500, disableOnInteraction: false },
         loop: true,
-        modules: [Navigation, Pagination],
+        modules: [Navigation, Pagination, Autoplay],
         pagination: { 
             el: '.swiper-pagination',
             clickable: true,
