@@ -6,6 +6,7 @@ import { useSidebar } from '@/stores/sidebar'
 import { useLoader } from '@/stores/loader'
 import FooterComponent from '@/components/FooterComponent.vue'
 import NavbarComponent from '@/components/NavbarComponent.vue'
+import useScroller from '@/assets/scroller'
 
 import AOS  from 'aos';
 import 'aos/dist/aos.css';
@@ -27,6 +28,8 @@ onMounted(() => {
   })
 
   // Loader
+
+  //useScroller()
 })
 
 // inject()
@@ -40,7 +43,9 @@ onMounted(() => {
     <FooterComponent />
   </div>
   <SidebarMenu />
-  <div class="scroll-top"></div>
+  <div class="scroll-top flex justify-center items-center hidden" id="scroll-top">
+    <span id="progress-value" class="text-black font-bold">&#x1F815;</span>
+  </div>
 </template>
 
 <style scoped></style>

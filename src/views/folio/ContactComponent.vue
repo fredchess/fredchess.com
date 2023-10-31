@@ -11,7 +11,7 @@
       <h2 class="message text-[clamp(2rem,4vw,4rem)] font-bold my-7 sm:leading-loose">
         Have a project in mind? Let’s get to work.👋📫
       </h2>
-      <a href="mailto:fredericktabi30@gmail.com">
+      <a href="mailto:frederick@fredchess.com">
         <button
           class="btn bg-transparent hover:bg-important border-2 border-important text-important hover:text-black px-5 py-3 flex justify-between items-center space-x-3"
         >
