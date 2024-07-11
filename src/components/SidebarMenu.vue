@@ -7,7 +7,7 @@ console.log()
 </script>
 
 <template>
-  <aside class="sidebar-menu hidden flex flex-col justify-center items-center">
+  <aside class="sidebar-menu hidden flex flex-col justify-center items-center relative">
     <nav class="menu flex flex-col m-auto text-xl">
       <RouterLink :to="{ name: 'home', hash: '#about' }" class="link py-3" :class="{'selected': route.fullPath.includes('about')}">
         <span>About</span>
@@ -21,11 +21,11 @@ console.log()
       <RouterLink :to="{ name: 'home', hash: '#contact' }" class="link py-3" :class="{'selected': route.fullPath.includes('contact')}">
         <span>Contact</span>
       </RouterLink>
-      <RouterLink to="/blogs" class="link py-3">
+      <a href="https://blog.fredchess.com" class="link py-3">
         <span>Blogs</span>
-      </RouterLink>
+      </a>
     </nav>
-    <div class="socials flex items-center justify-center space-x-5">
+    <div class="socials flex items-center justify-center space-x-5 absolute bottom-5">
         <a href="https://github.com/fredchess" target="_blank">
             <font-awesome-icon icon="fab fa-github" class="fa-xl hover:text-important" />
         </a>
