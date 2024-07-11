@@ -85,7 +85,7 @@ onMounted(() => {
             >Contact</span
           >
         </RouterLink>
-        <RouterLink to="/blogs" class="link">
+        <a href="https://blog.fredchess.com" class="link">
           <span
             v-motion
             :initial="{ opacity: 0, y: -20 }"
@@ -93,7 +93,7 @@ onMounted(() => {
             :delay="200 * 3.4"
             >Blogs</span
           >
-        </RouterLink>
+        </a>
       </div>
       <div
         class="menu sm:hidden z-10"
