@@ -7,7 +7,7 @@ console.log()
 </script>
 
 <template>
-  <aside class="sidebar-menu hidden flex flex-col justify-center items-center relative">
+  <aside class="sidebar-menu hidden flex flex-col z-20 justify-center items-center relative">
     <nav class="menu flex flex-col m-auto text-xl">
       <RouterLink :to="{ name: 'home', hash: '#about' }" class="link py-3" :class="{'selected': route.fullPath.includes('about')}">
         <span>About</span>

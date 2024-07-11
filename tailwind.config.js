@@ -9,7 +9,8 @@ export default {
       colors: {
         important: '#64ffda',
         appgray: '#8892B0',
-        appbg: '#05001e'
+        appbg: '#05001e',
+        navbg: '#100837'
       },
       backgroundImage: {
         'project-1': "url('/images/projects/project-1.png')",

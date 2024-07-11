@@ -18,10 +18,10 @@ onMounted(() => {
 
 <template>
   <div
-    class="navbar relative  py-3 sm:py-5 px-5 w-[99%] m-auto overflow-hidden"
+    class="navbar sticky top-0 py-3 sm:py-5 px-5 w-[99%] m-auto z-10 overflow-hidden bg-navbg bg-opacity-30 backdrop-filter backdrop-blur-lg"
   >
     <div class="flex justify-between items-center">
-      <RouterLink to="/">
+      <a href="#">
         <div
           class="logo w-[clamp(8rem,12vw,12rem)]"
           v-motion
@@ -31,10 +31,10 @@ onMounted(() => {
         >
           <img src="/images/logo_fredchess.svg" alt="" />
         </div>
-      </RouterLink>
+      </a>
       <div class="links space-x-5 hidden sm:flex">
-        <RouterLink
-          :to="{ name: 'home', hash: '#about' }"
+        <a
+          href="#about"
           class="link"
           :class="{ selected: route.fullPath.includes('about') }"
         >
@@ -45,9 +45,9 @@ onMounted(() => {
             :delay="200 * 1"
             >About</span
           >
-        </RouterLink>
-        <RouterLink
-          :to="{ name: 'home', hash: '#experience' }"
+        </a>
+        <a
+          href="#experience"
           class="link"
           :class="{ selected: route.fullPath.includes('experience') }"
         >
@@ -58,9 +58,9 @@ onMounted(() => {
             :delay="200 * 1.6"
             >Experience</span
           >
-        </RouterLink>
-        <RouterLink
-          :to="{ name: 'home', hash: '#projects' }"
+        </a>
+        <a
+          href="#projects"
           class="link"
           :class="{ selected: route.fullPath.includes('projects') }"
         >
@@ -71,9 +71,9 @@ onMounted(() => {
             :delay="200 * 2.2"
             >Projects</span
           >
-        </RouterLink>
-        <RouterLink
-          :to="{ name: 'home', hash: '#contact' }"
+        </a>
+        <a
+          href="#contact"
           class="link"
           :class="{ selected: route.fullPath.includes('contact') }"
         >
@@ -84,7 +84,7 @@ onMounted(() => {
             :delay="200 * 2.8"
             >Contact</span
           >
-        </RouterLink>
+        </a>
         <a href="https://blog.fredchess.com" class="link">
           <span
             v-motion
