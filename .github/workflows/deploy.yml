@@ -26,8 +26,8 @@ jobs:
           username: ${{ vars.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           script: |
-            rm -r /var/www/fredchess.com/frontend/.dist.old
-            mv /var/www/fredchess.com/frontend/dist /var/www/fredchess.com/frontend/.dist.old
+            mkdir -p /var/www/fredchess.com/
+            rm -r /var/www/fredchess.com/*
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@master
