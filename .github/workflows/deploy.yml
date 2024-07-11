@@ -27,7 +27,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           script: |
             mkdir -p /var/www/fredchess.com/
-            rm -r /var/www/fredchess.com/*
+            rm -rf /var/www/fredchess.com/*
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@master
