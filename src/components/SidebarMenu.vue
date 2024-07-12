@@ -45,8 +45,8 @@ console.log()
 <style scoped>
 .sidebar-menu {
   width: min(75vw, 400px);
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  min-height: calc(100vh - 6rem);
+  /*min-height: -webkit-fill-available;*/
   position: fixed;
   top: 0;
   right: 0;
