@@ -18,7 +18,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="navbar sticky top-0 py-3 sm:py-5 px-5 w-[99%] m-auto z-10 overflow-hidden bg-navbg bg-opacity-30 backdrop-filter backdrop-blur-lg"
+    class="navbar sticky top-0 py-3 sm:py-5 px-5 w-[99%] m-auto z-10 overflow-hidden bg-appbg bg-opacity-30 backdrop-filter backdrop-blur-lg"
   >
     <div class="flex justify-between items-center">
       <a href="#">
