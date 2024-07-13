@@ -6,7 +6,6 @@ import { useSidebar } from '@/stores/sidebar'
 import { useLoader } from '@/stores/loader'
 import FooterComponent from '@/components/FooterComponent.vue'
 import NavbarComponent from '@/components/NavbarComponent.vue'
-import useScroller from '@/assets/scroller'
 
 import AOS  from 'aos';
 import 'aos/dist/aos.css';
@@ -18,7 +17,9 @@ onMounted(() => {
   // Init AOS
   AOS.init()
   // On overlay click
-  document.querySelector('.overlay')?.addEventListener('click', sidebarStore.closeSidebar)
+  document.querySelector('.overlay')?.addEventListener('click', () => {
+    sidebarStore.closeSidebar()
+  })
 
   // On link click
   document.querySelectorAll('.link').forEach((link) => {
