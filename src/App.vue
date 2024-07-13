@@ -37,15 +37,13 @@ onMounted(() => {
 
 <template>
   <LoaderComponent :class="{'z-1' : loaderStore.getLoaderState() }" v-if="loaderStore.getLoaderState()"/>
-  <div class="content" v-if="!loaderStore.getLoaderState()">
+  <div class="content relative" v-if="!loaderStore.getLoaderState()">
     <NavbarComponent />
     <RouterView/>
+    <div class="overlay hidden"></div>
     <FooterComponent />
   </div>
   <SidebarMenu />
-  <div class="scroll-top flex justify-center items-center hidden" id="scroll-top">
-    <span id="progress-value" class="text-black font-bold">&#x1F815;</span>
-  </div>
 </template>
 
 <style scoped></style>
